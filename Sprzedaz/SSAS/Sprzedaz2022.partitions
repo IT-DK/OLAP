@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0a7886b8-cac1-4e04-a70a-72199af38ddf" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Sprzedaz2022</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>TB Sprzedaz2022 F</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="38f38aa7-96bd-48b2-94fe-f74d4564dc09">
+          <ID>TB Sprzedaz2022 F</ID>
+          <Name>TB Sprzedaz2022 F</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="db9c02e5-b741-46dc-bddc-e17761e47b67">
+            <DataSourceViewID>Sprzedaz</DataSourceViewID>
+            <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>TB Sprzedaz2022 F 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="282e5879-79ff-4ffd-b465-3acfb53d16e2">
+          <ID>TB Sprzedaz2022 F</ID>
+          <Name>TB Sprzedaz2022 F</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="00847dc5-9c8c-47ad-a382-3c5adf91361e">
+            <DataSourceViewID>Sprzedaz</DataSourceViewID>
+            <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

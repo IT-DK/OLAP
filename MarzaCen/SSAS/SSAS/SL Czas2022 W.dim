@@ -1,0 +1,305 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="42e8429e-78be-4e84-beac-71ca51a233b5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SL Czas2022 W</ID>
+  <Name>SL Czas2022 W</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2816" scrolltop="-3567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9546" y="5101" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Czas_W" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3874" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000220f00000a100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SL_Czas_W" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2816</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3567</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="182">
+            <Shape Id="Czas ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="Czas ID" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Czas Dzien Tygodnia" Expanded="true">
+              <Attributes>
+                <Attribute Id="Czas Dzien Tygodnia" />
+                <Attribute Id="Czas Dzien Tyg Sort" />
+              </Attributes>
+              <Position x="252" y="20" />
+            </Shape>
+            <Shape Id="Czas Data" Expanded="false">
+              <Attributes>
+                <Attribute Id="Czas Data" />
+              </Attributes>
+              <Position x="252" y="94" />
+            </Shape>
+            <Shape Id="Czas Miesiac" Expanded="true">
+              <Attributes>
+                <Attribute Id="Czas Miesiac" />
+                <Attribute Id="Czas Miesiac Sort" />
+              </Attributes>
+              <Position x="485" y="94" />
+            </Shape>
+            <Shape Id="Czas Rok" Expanded="false">
+              <Attributes>
+                <Attribute Id="Czas Rok" />
+              </Attributes>
+              <Position x="717" y="94" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1a6de5af-8e13-4654-9790-9b145010b38c">
+    <DataSourceViewID>MarzaCen</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="0d6b0152-ba30-4277-9f72-01b52f3f81c9">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="f7d7a845-5800-4e6b-9cfb-4c990da321d9">
+      <ID>Czas ID</ID>
+      <Name>Czas ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e17d37c6-90a8-450d-802f-c0f42d017a37">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="04392f5e-3b97-448f-be8e-04b17f4b482e">
+            <TableID>dbo_SL_Czas_W</TableID>
+            <ColumnID>czas_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="572375f9-437c-47b0-b8b5-3fedb2f6ae07">
+          <AttributeID>Czas Data</AttributeID>
+          <Name>Czas Data</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a48b7739-9b6f-4408-a21a-e9c9c86b7e96">
+          <AttributeID>Czas Dzien Tygodnia</AttributeID>
+          <Name>Czas Dzien Tygodnia</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="42bdb116-0e50-43e8-b744-4ad0198a6b36">
+      <ID>Czas Data</ID>
+      <Name>Czas Data</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d3fe2b85-7a26-4e67-a173-830fa20278fe">
+          <DataType>WChar</DataType>
+          <DataSize>19</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="638d1712-5a69-4882-975a-3fa65544ac07">
+            <TableID>dbo_SL_Czas_W</TableID>
+            <ColumnID>czas_Data</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b65ca53b-ae67-4ae4-890e-0ebedc765bbe">
+          <AttributeID>Czas Miesiac</AttributeID>
+          <Name>Czas Miesiac</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1d7d3f88-555a-4304-a899-53ac33fe4083">
+      <ID>Czas Miesiac</ID>
+      <Name>Czas Miesiac</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9a7240ea-7af9-4cbf-8f07-1e1ed25d95e9">
+          <DataType>WChar</DataType>
+          <DataSize>16</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3be79fe-f332-4360-8c7d-1426ae6951b4">
+            <TableID>dbo_SL_Czas_W</TableID>
+            <ColumnID>czas_miesiac</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="031c99cc-9d23-4824-981a-e93a486cb176">
+          <AttributeID>Czas Miesiac Sort</AttributeID>
+          <Name>Czas Miesiac Sort</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a4ba5b2a-4a3d-4ec0-99d3-2672892fbb5d">
+          <AttributeID>Czas Rok</AttributeID>
+          <Name>Czas Rok</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Czas Miesiac Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f7f1d7a8-322a-4938-a3a5-c55a2b64cf28">
+      <ID>Czas Miesiac Sort</ID>
+      <Name>Czas Miesiac Sort</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dd892965-63df-43ad-a1e2-0e9cd0942199">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3f434c2d-774a-4cac-8aa6-b240a38de611">
+            <TableID>dbo_SL_Czas_W</TableID>
+            <ColumnID>czas_MiesiacSort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3c304988-e1b9-4793-9887-c371b15b962e">
+      <ID>Czas Rok</ID>
+      <Name>Czas Rok</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ddef2f1e-234c-44b7-a928-198a87931276">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a2f98de-e805-4349-b928-c6647f323724">
+            <TableID>dbo_SL_Czas_W</TableID>
+            <ColumnID>czas_Rok</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1691ef12-cc9f-4347-8457-1bc73f0e7acc">
+      <ID>Czas Dzien Tygodnia</ID>
+      <Name>Czas Dzien Tygodnia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bf6d3e73-6250-426c-b5cb-b54334988c46">
+          <DataType>WChar</DataType>
+          <DataSize>12</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="92ef63cf-61bb-48a6-be7f-f16818a31f30">
+            <TableID>dbo_SL_Czas_W</TableID>
+            <ColumnID>czas_DzienTygodnia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8ed35b41-a5b5-4332-9f80-965171e7fee5">
+          <AttributeID>Czas Dzien Tyg Sort</AttributeID>
+          <Name>Czas Dzien Tyg Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Czas Dzien Tyg Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="724abb3b-9dc4-47f8-910d-7c987066f2c3">
+      <ID>Czas Dzien Tyg Sort</ID>
+      <Name>Czas Dzien Tyg Sort</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="87049dc1-8faa-4696-9f00-4c5f4c53e143">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8dabaaa6-1ad2-4938-8dfc-edc0cc9b2e4c">
+            <TableID>dbo_SL_Czas_W</TableID>
+            <ColumnID>czas_DzienTygSort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="4dadeadf-4475-421e-a3ba-8ead92d9a86e">
+      <ID>Hierarchy</ID>
+      <Name>Czas</Name>
+      <Levels>
+        <Level dwd:design-time-name="8ce3a315-3fb5-48d8-9eae-19b0ed96e673">
+          <ID>Czas Rok</ID>
+          <Name>Rok</Name>
+          <SourceAttributeID>Czas Rok</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f78d4273-acc9-4fef-80de-801675354f78">
+          <ID>Czas Miesiac</ID>
+          <Name>Miesiąc</Name>
+          <SourceAttributeID>Czas Miesiac</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b59a2959-7aa9-4649-a513-eaa019918e7d">
+          <ID>Czas Data</ID>
+          <Name>Dzień</Name>
+          <SourceAttributeID>Czas Data</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

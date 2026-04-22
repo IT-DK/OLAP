@@ -1,0 +1,319 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fcc6cba7-e48b-46b5-8d82-979c5f4dde75" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>MarzaCen2023</ID>
+  <Name>MarzaCen2023</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7514" scrolltop="-4389" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="26120" y="16510" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Sklep_W" left="7627" top="360" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SL_Sklep_W" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TB_MarzaCen2023_Fv2" left="20" top="0" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="5207" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000057140000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TB_MarzaCen2023_Fv2" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4927" top="1114" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TB_MarzaCen2023_Fv2-SL_Sklep_W]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="12" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7627" y="1513" />
+              <point x="5227" y="1513" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Czas_W_2023" left="-5165" top="-2709" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="3704" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000780e00000a100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="SL_Czas_W_2023" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1761" top="-2705" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="3923" height="3418" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TB_MarzaCen2023_Fv2-SL_Czas_W_2023]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="15" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-1461" y="-2306" />
+              <point x="1862" y="-2306" />
+              <point x="1862" y="413" />
+              <point x="20" y="413" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7514</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4389</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-5165</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-2709</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="21591752-a842-4d64-8f21-544820969a97">
+      <ID>NM-WM-2023</ID>
+      <Name>NM-WM-2023</Name>
+      <DimensionID>NM-WM-2023</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d03cbf97-246f-4455-acc2-7f62cdac4591">
+          <AttributeID>Towar Grupa M</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="82c56f2f-3f24-40aa-a367-3c51f76255cd">
+      <ID>Sklep</ID>
+      <Name>Sklep</Name>
+      <DimensionID>SL Sklep W</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="28162247-e8ca-43cc-90bc-4f8051984c38">
+          <AttributeID>Sklep ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cfecf904-c241-40c6-bb06-236ea51ffec5">
+          <AttributeID>Sklep Numer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8a7dd955-ec38-4466-ae43-47c3bc7ba167">
+          <AttributeID>Sklep Miasto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="14a8a416-f4c7-4e41-b5fb-dfe46389ef01">
+          <AttributeID>Sklep KR</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="726e22f7-e6d2-4664-9703-723564ac3175">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="09399a06-3459-4051-9798-a72d80fac45e">
+      <ID>Czas2023</ID>
+      <Name>Czas2023</Name>
+      <DimensionID>SL Czas2023 W</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="caf43f21-b7b3-4f42-a987-2285994953e0">
+          <AttributeID>Czas Data</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f8515148-c546-43f3-a25a-8f07273009f0">
+          <AttributeID>Czas Dzien Tygodnia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4c13f961-dfeb-4500-81f7-691b65a9c540">
+          <AttributeID>Czas Miesiac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d4e3966-2f96-44d4-aeec-fbfaf36729cc">
+          <AttributeID>Czas Rok</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="10d5fe68-97dd-4f9e-ad42-4790cea5b4b4">
+          <AttributeID>Czas Miesiac Sort</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="71e0d447-95d0-4bdd-b089-78a84abd1dc9">
+          <AttributeID>Czas Dzien Tyg Sort</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="355eafb9-7aaf-4fc6-b5dd-1745636e06df">
+          <AttributeID>Czas ID</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e83a403c-bb4e-4191-8665-8e9bec1a1fd7">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="c0763c79-0f24-40b9-b786-88cbcba8b9da">
+      <ID>TB Marza Cen2023 Fv2</ID>
+      <Name>Sprzedaż</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="a84505f0-02af-4440-b332-aa2ce90f4912">
+          <ID>Wartosc Sprzedazy Brutto</ID>
+          <Name>Sprzedaż brutto</Name>
+          <Source dwd:design-time-name="70029725-17d0-4684-b9ea-ec340b31aa71">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2ade89b9-c95e-4f0a-8d73-f966560b9cb9">
+              <TableID>dbo_TB_MarzaCen2023_Fv2</TableID>
+              <ColumnID>wartoscSprzedazyBrutto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="30e7c821-b814-40cb-b60a-cc059feb121c">
+          <ID>Wartosc Sprzedazy Brutto Target</ID>
+          <Name>Target sprzedaży brutto</Name>
+          <Source dwd:design-time-name="2b8e5f72-b4a9-49bf-8fe9-aeb437d503fe">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6ceb230b-b821-478d-8112-b09cfe838429">
+              <TableID>dbo_TB_MarzaCen2023_Fv2</TableID>
+              <ColumnID>wartoscSprzedazyBruttoTarget</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="148a0041-d245-4aac-9d50-cd7a13892051">
+          <CubeDimensionID>NM-WM-2023</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7b7e25d0-c1cb-4c1b-a726-ad37aa4741cb">
+              <AttributeID>Towar Grupa M</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7dd40293-05f6-42c7-8ef5-20b681141976">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6e2346b8-752b-46ef-aeba-2c7081fb52a7">
+                    <TableID>dbo_TB_MarzaCen2023_Fv2</TableID>
+                    <ColumnID>towar_grupa_m</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="52829143-afc3-4847-bdd6-b4d120d96477">
+          <CubeDimensionID>Sklep</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e9802a59-2a36-414d-bef0-bb277ef113eb">
+              <AttributeID>Sklep ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c39b7cd3-7f1d-4c82-a9a8-9eaadddffa5d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="88811b1e-e38c-454e-811e-b87ca6263786">
+                    <TableID>dbo_TB_MarzaCen2023_Fv2</TableID>
+                    <ColumnID>sklep_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f42303a8-4de0-4cd8-81f0-7f5dc3de37da">
+          <CubeDimensionID>Czas2023</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="52e548b9-f1dd-4ce2-b9c3-8abf1ab8ab43">
+              <AttributeID>Czas ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7ffa745e-5cdd-4a24-ad50-ec2f62f455a2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="213103d0-5372-4416-8a9c-916dac66d187">
+                    <TableID>dbo_TB_MarzaCen2023_Fv2</TableID>
+                    <ColumnID>czas_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="618b5988-e24f-4284-a82c-f615aac2a631">
+    <DataSourceViewID>MarzaCen</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="a6f50d40-7018-4f2a-9fd9-9320d2f12d3e">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Realizacja targetu sprzedaży brutto]
+ AS IIF([Measures].[Target sprzedaży brutto]=NULL,NULL,[Measures].[Sprzedaż brutto]/[Measures].[Target sprzedaży brutto]), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

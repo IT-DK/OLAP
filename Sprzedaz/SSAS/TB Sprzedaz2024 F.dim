@@ -1,0 +1,160 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="794da941-80df-4244-9645-21f7dbd17d70" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>TB Sprzedaz2024 F</ID>
+  <Name>TB Sprzedaz2024 F</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a2a1f486-25fe-42b1-a078-6ce02338cc8b">
+    <DataSourceViewID>Sprzedaz</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="0afc0bbc-1a6d-4990-831f-a70b852ae5fc">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="403d5ef2-c6e5-4dc2-bd48-558773d171fb">
+      <ID>Fakt ID</ID>
+      <Name>Fakt ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cbeed8a1-0fd8-4851-9a6a-8d6d57e5b735">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d9648fe-41eb-4c04-a02a-b4a954dd3172">
+            <TableID>dbo_TB_Sprzedaz2024_F</TableID>
+            <ColumnID>fakt_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="92251067-c57d-43c6-b717-ea6a2458382c">
+          <AttributeID>Godzina ID</AttributeID>
+          <Name>Godzina ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7c10272a-1e38-4b6c-94b8-3331c8de68e7">
+          <AttributeID>Towar ID</AttributeID>
+          <Name>Towar ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0571a196-60bf-4b47-a741-385bf680f84e">
+          <AttributeID>Data ID</AttributeID>
+          <Name>Data ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fcedd6fe-6cda-45bd-b5f1-7ba775d4d006">
+          <AttributeID>Sklep ID</AttributeID>
+          <Name>Sklep ID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b233fded-8ecd-48ac-af46-c5b00d5a2734">
+      <ID>Godzina ID</ID>
+      <Name>Godzina ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f9c8f557-9f82-4666-8529-982ab85a2a28">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e801f5ae-ac4a-4bf4-833a-efd0be586446">
+            <TableID>dbo_TB_Sprzedaz2024_F</TableID>
+            <ColumnID>godzina_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="24be0952-b295-4948-8da9-7e922318e129">
+      <ID>Towar ID</ID>
+      <Name>Towar ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="03b9e1d9-09a0-4309-a46b-743738a0153e">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8ab71225-728a-4dc0-a35b-cc794bccf6f7">
+            <TableID>dbo_TB_Sprzedaz2024_F</TableID>
+            <ColumnID>towar_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ccb3ee14-9791-4954-be7b-cfb8d85514af">
+      <ID>Data ID</ID>
+      <Name>Data ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a48b42a5-376b-45d7-a377-bf077375d9fc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="641b2c71-03e7-4ee0-a643-be82217d7210">
+            <TableID>dbo_TB_Sprzedaz2024_F</TableID>
+            <ColumnID>data_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="02e2f9c8-f792-47bb-8ef7-cb3dd589a37d">
+      <ID>Sklep ID</ID>
+      <Name>Sklep ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="49e34bd7-8b76-43d7-bcec-3e7e568030ca">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="39fd9898-4d69-4ced-bd92-59fe1402937e">
+            <TableID>dbo_TB_Sprzedaz2024_F</TableID>
+            <ColumnID>sklep_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

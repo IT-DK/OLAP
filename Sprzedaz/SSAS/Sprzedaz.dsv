@@ -1,0 +1,2335 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="50c740f7-1833-4e15-9f3f-466fc19ec5e2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Sprzedaz</ID>
+  <Name>Sprzedaz</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="117" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="10632" scrolltop="-9458" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="37439" y="18150" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TB_Sprzedaz2019_F" left="49046" top="63116" logicalid="55" controlid="1" masterid="0" hint1="0" hint2="0" width="4580" height="4826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000e4110000da120000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_TB_Sprzedaz2019_F" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Sklep_W" left="14451" top="27104" logicalid="56" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Sklep_W" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Czas_W" left="48920" top="1722" logicalid="57" controlid="3" masterid="0" hint1="0" hint2="0" width="4424" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000481100000a100000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Czas_W" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Godzina_W" left="38549" top="3487" logicalid="58" controlid="4" masterid="0" hint1="0" hint2="0" width="4974" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00006e1300003b0d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Godzina_W" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Towar_W" left="12410" top="30682" logicalid="59" controlid="5" masterid="0" hint1="0" hint2="0" width="3323" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000fb0c00003b0d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Towar_W" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TB_Sprzedaz2020_F" left="17641" top="50267" logicalid="60" controlid="6" masterid="0" hint1="0" hint2="0" width="6697" height="4826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000291a0000da120000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_TB_Sprzedaz2020_F" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Czas_W_2019" left="54446" top="63476" logicalid="61" controlid="7" masterid="0" hint1="0" hint2="0" width="4424" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000481100000a100000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="SL_Czas_W" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TB_Sprzedaz2021_F" left="26094" top="55659" logicalid="62" controlid="8" masterid="0" hint1="0" hint2="0" width="6319" height="4826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000af180000da120000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_TB_Sprzedaz2021_F" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Czas_W_2020" left="6266" top="50556" logicalid="63" controlid="9" masterid="0" hint1="0" hint2="0" width="4424" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000481100000a100000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="SL_Czas_W_2020" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TB_Sprzedaz2022_F" left="19423" top="33237" logicalid="64" controlid="10" masterid="0" hint1="0" hint2="0" width="4072" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000e80f000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_TB_Sprzedaz2022_F" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Czas_W_2021" left="42029" top="50823" logicalid="65" controlid="11" masterid="0" hint1="0" hint2="0" width="4424" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000481100000a100000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="SL_Czas_W_2021" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Towar_W_2020" left="12897" top="57422" logicalid="66" controlid="12" masterid="0" hint1="0" hint2="0" width="3387" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00003b0d0000d30b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Towar_W_2020" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Towar_W_2019" left="48853" top="70342" logicalid="67" controlid="13" masterid="0" hint1="0" hint2="0" width="3387" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00003b0d0000d30b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Towar_W_2019" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Towar_W_2021" left="36468" top="57689" logicalid="68" controlid="14" masterid="0" hint1="0" hint2="0" width="3323" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000fb0c0000d30b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Towar_W_2021" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Czas_W_2022" left="25197" top="32665" logicalid="69" controlid="15" masterid="0" hint1="0" hint2="0" width="4424" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000481100000a100000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="SL_Czas_W_2022" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TB_Sprzedaz2023_F" left="0" top="33382" logicalid="70" controlid="16" masterid="0" hint1="0" hint2="0" width="4016" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b00f000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_TB_Sprzedaz2023_F" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Towar_W_2023" left="24083" top="44676" logicalid="71" controlid="17" masterid="0" hint1="0" hint2="0" width="3323" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000fb0c00003b0d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Towar_W_2023" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="17151" top="28408" logicalid="72" controlid="18" masterid="0" hint1="0" hint2="0" width="32195" height="37421" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2019_F-SL_Sklep_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="15" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="17451" y="28807" />
+                    <point x="35364" y="28807" />
+                    <point x="35364" y="65529" />
+                    <point x="49046" y="65529" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="41737" top="6375" logicalid="73" controlid="19" masterid="0" hint1="0" hint2="0" width="9349" height="57041" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2019_F-SL_Godzina_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="13" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="42136" y="6874" />
+                    <point x="42136" y="45296" />
+                    <point x="50786" y="45296" />
+                    <point x="50786" y="63116" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="19039" top="6375" logicalid="74" controlid="20" masterid="0" hint1="0" hint2="0" width="21297" height="44192" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2020_F-SL_Godzina_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="39936" y="6874" />
+                    <point x="39936" y="38836" />
+                    <point x="19339" y="38836" />
+                    <point x="19339" y="50267" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="53326" top="65130" logicalid="75" controlid="21" masterid="0" hint1="0" hint2="0" width="1420" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2019_F-SL_Czas_W_2019]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="1" sourceattachpoint="20" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="54446" y="65529" />
+                    <point x="53626" y="65529" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14452" top="28912" logicalid="76" controlid="22" masterid="0" hint1="0" hint2="0" width="4087" height="21655" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2020_F-SL_Sklep_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="14851" y="29411" />
+                    <point x="14851" y="44192" />
+                    <point x="18239" y="44192" />
+                    <point x="18239" y="50267" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="10390" top="50560" logicalid="77" controlid="23" masterid="0" hint1="0" hint2="0" width="7551" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2020_F-SL_Czas_W_2020]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="6" sourceattachpoint="15" destattachpoint="24" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="10690" y="50959" />
+                    <point x="14165" y="50959" />
+                    <point x="14165" y="51030" />
+                    <point x="17641" y="51030" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="16652" top="28912" logicalid="78" controlid="24" masterid="0" hint1="0" hint2="0" width="10151" height="27047" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2021_F-SL_Sklep_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="8" sourceattachpoint="9" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="17051" y="29411" />
+                    <point x="17051" y="42535" />
+                    <point x="26503" y="42535" />
+                    <point x="26503" y="55659" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="27303" top="6375" logicalid="79" controlid="25" masterid="0" hint1="0" hint2="0" width="14683" height="49584" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2021_F-SL_Godzina_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="8" sourceattachpoint="11" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="41586" y="6874" />
+                    <point x="41586" y="38969" />
+                    <point x="27603" y="38969" />
+                    <point x="27603" y="55659" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="15433" top="31976" logicalid="80" controlid="26" masterid="0" hint1="0" hint2="0" width="4290" height="4061" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2022_F-SL_Towar_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="10" sourceattachpoint="15" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="15733" y="32375" />
+                    <point x="16933" y="32375" />
+                    <point x="16933" y="35737" />
+                    <point x="19423" y="35737" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="21159" top="6375" logicalid="81" controlid="27" masterid="0" hint1="0" hint2="0" width="19727" height="27162" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2022_F-SL_Godzina_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="10" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="40486" y="6874" />
+                    <point x="40486" y="28676" />
+                    <point x="21459" y="28676" />
+                    <point x="21459" y="33237" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="17151" top="27308" logicalid="82" controlid="28" masterid="0" hint1="0" hint2="0" width="2572" height="10929" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2022_F-SL_Sklep_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="10" sourceattachpoint="11" destattachpoint="30" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="17451" y="27707" />
+                    <point x="18130" y="27707" />
+                    <point x="18130" y="37937" />
+                    <point x="19423" y="37937" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="32113" top="54127" logicalid="83" controlid="29" masterid="0" hint1="0" hint2="0" width="10216" height="2045" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2021_F-SL_Czas_W_2021]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="11" destid="8" sourceattachpoint="26" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="42029" y="54526" />
+                    <point x="35562" y="54526" />
+                    <point x="35562" y="55872" />
+                    <point x="32413" y="55872" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="13091" top="54793" logicalid="84" controlid="30" masterid="0" hint1="0" hint2="0" width="5448" height="3129" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2020_F-SL_Towar_W_2020]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="6" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="13490" y="57422" />
+                    <point x="13490" y="56222" />
+                    <point x="18239" y="56222" />
+                    <point x="18239" y="55093" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="49047" top="67642" logicalid="85" controlid="31" masterid="0" hint1="0" hint2="0" width="939" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2019_F-SL_Towar_W_2019]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="13" destid="1" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="49446" y="70342" />
+                    <point x="49446" y="69142" />
+                    <point x="49686" y="69142" />
+                    <point x="49686" y="67942" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="32113" top="57703" logicalid="86" controlid="32" masterid="0" hint1="0" hint2="0" width="4655" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2021_F-SL_Towar_W_2021]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="14" destid="8" sourceattachpoint="10" destattachpoint="31" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="36468" y="58102" />
+                    <point x="32813" y="58102" />
+                    <point x="32813" y="58072" />
+                    <point x="32413" y="58072" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="23195" top="33219" logicalid="87" controlid="33" masterid="0" hint1="0" hint2="0" width="2302" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2022_F-SL_Czas_W_2022]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="15" destid="10" sourceattachpoint="16" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="25197" y="33618" />
+                    <point x="24797" y="33618" />
+                    <point x="24797" y="33537" />
+                    <point x="23495" y="33537" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1158" top="6375" logicalid="88" controlid="34" masterid="0" hint1="0" hint2="0" width="40278" height="27307" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2023_F-SL_Godzina_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="16" sourceattachpoint="9" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="41036" y="6874" />
+                    <point x="41036" y="32376" />
+                    <point x="1458" y="32376" />
+                    <point x="1458" y="33382" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="58" top="38082" logicalid="89" controlid="35" masterid="0" hint1="0" hint2="0" width="24986" height="7094" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2023_F-SL_Towar_W_2023]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="17" destid="16" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="24644" y="44676" />
+                    <point x="24644" y="43476" />
+                    <point x="358" y="43476" />
+                    <point x="358" y="38382" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3716" top="27308" logicalid="90" controlid="36" masterid="0" hint1="0" hint2="0" width="11035" height="9424" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2023_F-SL_Sklep_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="16" sourceattachpoint="10" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="14451" y="27707" />
+                    <point x="8768" y="27707" />
+                    <point x="8768" y="36432" />
+                    <point x="4016" y="36432" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Czas_W_2023" left="5833" top="34302" logicalid="91" controlid="37" masterid="0" hint1="0" hint2="0" width="4177" height="3923" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e000051100000530f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="SL_Czas_W_2023" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3716" top="34214" logicalid="92" controlid="38" masterid="0" hint1="0" hint2="0" width="2417" height="868" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2023_F-SL_Czas_W_2023]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="37" destid="16" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="5833" y="34613" />
+                    <point x="4925" y="34613" />
+                    <point x="4925" y="34782" />
+                    <point x="4016" y="34782" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TB_Sprzedaz2024_F" left="19896" top="15157" logicalid="93" controlid="39" masterid="0" hint1="0" hint2="0" width="5701" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00004516000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_TB_Sprzedaz2024_F" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="25297" top="3681" logicalid="94" controlid="40" masterid="0" hint1="0" hint2="0" width="13552" height="16476" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2024_F-SL_Godzina_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="39" sourceattachpoint="18" destattachpoint="39" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="38549" y="4080" />
+                    <point x="28298" y="4080" />
+                    <point x="28298" y="19857" />
+                    <point x="25597" y="19857" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Towar_W_2024" left="10387" top="19650" logicalid="95" controlid="41" masterid="0" hint1="0" hint2="0" width="5843" height="4656" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000d316000030120000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Towar_W_2024" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="15930" top="19007" logicalid="96" controlid="42" masterid="0" hint1="0" hint2="0" width="4266" height="3371" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2024_F-SL_Towar_W_2024]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="41" destid="39" sourceattachpoint="31" destattachpoint="36" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="16230" y="21978" />
+                    <point x="17477" y="21978" />
+                    <point x="17477" y="19307" />
+                    <point x="19896" y="19307" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Sklep2024_W" left="17183" top="23148" logicalid="97" controlid="43" masterid="0" hint1="0" hint2="0" width="4305" height="3570" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000d1100000f20d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Sklep2024_W" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="19486" top="19857" logicalid="98" controlid="44" masterid="0" hint1="0" hint2="0" width="1910" height="3791" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2024_F-SL_Sklep2024_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="43" destid="39" sourceattachpoint="8" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="19885" y="23148" />
+                    <point x="19885" y="21705" />
+                    <point x="21096" y="21705" />
+                    <point x="21096" y="20157" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TB_Sprzedaz2025_F" left="19995" top="5740" logicalid="99" controlid="45" masterid="0" hint1="0" hint2="0" width="5820" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000bc16000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_TB_Sprzedaz2025_F" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Sklep2025_W" left="39441" top="14387" logicalid="100" controlid="46" masterid="0" hint1="0" hint2="0" width="5397" height="2787" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e000015150000e30a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Sklep2025_W" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Towar_W_2025" left="39769" top="18073" logicalid="101" controlid="47" masterid="0" hint1="0" hint2="0" width="6001" height="4057" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e000071170000d90f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Towar_W_2025" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="25515" top="4231" logicalid="102" controlid="48" masterid="0" hint1="0" hint2="0" width="13334" height="2659" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2025_F-SL_Godzina_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="45" sourceattachpoint="20" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="38549" y="4630" />
+                    <point x="31847" y="4630" />
+                    <point x="31847" y="6590" />
+                    <point x="25815" y="6590" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="25515" top="5740" logicalid="103" controlid="49" masterid="0" hint1="0" hint2="0" width="14226" height="9340" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2025_F-SL_Sklep2025_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="46" destid="45" sourceattachpoint="18" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="39441" y="14680" />
+                    <point x="37108" y="14680" />
+                    <point x="37108" y="6040" />
+                    <point x="25815" y="6040" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="25515" top="9590" logicalid="104" controlid="50" masterid="0" hint1="0" hint2="0" width="14554" height="9261" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2025_F-SL_Towar_W_2025]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="47" destid="45" sourceattachpoint="22" destattachpoint="37" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="39769" y="18451" />
+                    <point x="36902" y="18451" />
+                    <point x="36902" y="9890" />
+                    <point x="25815" y="9890" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Czas_W_2024" left="14583" top="9970" logicalid="105" controlid="51" masterid="0" hint1="0" hint2="0" width="4833" height="4904" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000e112000028130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="SL_Czas_W_2024" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="19116" top="14223" logicalid="106" controlid="52" masterid="0" hint1="0" hint2="0" width="1080" height="1534" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2024_F-SL_Czas_W_2024]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="51" destid="39" sourceattachpoint="35" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="19416" y="14622" />
+                    <point x="19816" y="14622" />
+                    <point x="19816" y="15040" />
+                    <point x="19496" y="15040" />
+                    <point x="19496" y="15457" />
+                    <point x="19896" y="15457" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Czas_W_2025" left="21714" top="0" logicalid="107" controlid="53" masterid="0" hint1="0" hint2="0" width="4833" height="4904" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000e112000028130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="SL_Czas_W_2025" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="21505" top="4405" logicalid="108" controlid="54" masterid="0" hint1="0" hint2="0" width="825" height="1635" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2025_F-SL_Czas_W_2025]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="53" destid="45" sourceattachpoint="1" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="21930" y="4904" />
+                    <point x="21930" y="5304" />
+                    <point x="21805" y="5304" />
+                    <point x="21805" y="5740" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TB_Sprzedaz2026_F" left="37607" top="-3830" logicalid="110" controlid="56" masterid="0" hint1="0" hint2="0" width="6843" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000bb1a000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_TB_Sprzedaz2026_F" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="44150" top="570" logicalid="111" controlid="57" masterid="0" hint1="0" hint2="0" width="5070" height="1955" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2026_F-SL_Czas_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="56" sourceattachpoint="14" destattachpoint="43" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="48920" y="2125" />
+                    <point x="46685" y="2125" />
+                    <point x="46685" y="870" />
+                    <point x="44450" y="870" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="38437" top="870" logicalid="112" controlid="58" masterid="0" hint1="0" hint2="0" width="799" height="3117" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2026_F-SL_Godzina_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="56" sourceattachpoint="0" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="38836" y="3487" />
+                    <point x="38836" y="2329" />
+                    <point x="38828" y="2329" />
+                    <point x="38828" y="1170" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Sklep2026_W" left="47211" top="-4459" logicalid="113" controlid="59" masterid="0" hint1="0" hint2="0" width="3846" height="2787" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000060f0000e30a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Sklep2026_W" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="44150" top="-4015" logicalid="114" controlid="60" masterid="0" hint1="0" hint2="0" width="3361" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2026_F-SL_Sklep2026_W]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="59" destid="56" sourceattachpoint="16" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="47211" y="-3616" />
+                    <point x="45831" y="-3616" />
+                    <point x="45831" y="-3530" />
+                    <point x="44450" y="-3530" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Towar_W_2026" left="31057" top="-3023" logicalid="115" controlid="61" masterid="0" hint1="0" hint2="0" width="4587" height="4057" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000eb110000d90f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SL_Towar_W_2026" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="35344" top="-3044" logicalid="116" controlid="62" masterid="0" hint1="0" hint2="0" width="2563" height="914" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2026_F-SL_Towar_W_2026]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="61" destid="56" sourceattachpoint="15" destattachpoint="30" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="35644" y="-2645" />
+                    <point x="36625" y="-2645" />
+                    <point x="36625" y="-2430" />
+                    <point x="37607" y="-2430" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>10632</DiagramViewPortLeft>
+            <DiagramViewPortTop>-9458</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>75</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Sprzedaz</DataSourceID>
+  <Schema>
+    <xs:schema id="Sprzedaz" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Sprzedaz" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="6b7376db-b184-4264-8d18-113477161914">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_TB_Sprzedaz2019_F" msprop:design-time-name="7faa0fe2-ba4b-4850-9e47-384a8c23fb38" msprop:FriendlyName="TB_Sprzedaz2019_F" msprop:DbSchemaName="dbo" msprop:DbTableName="TB_Sprzedaz2019_F" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fakt_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="0a61308f-71a6-4021-bd6a-ff3dc9e2d316" msprop:DbColumnName="fakt_ID" msprop:FriendlyName="fakt_ID" type="xs:long" />
+                  <xs:element name="towar_ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="ba7efd4a-fa5b-4067-8e43-9fdeba925bbd" msprop:DbColumnName="towar_ID" msprop:FriendlyName="towar_ID" type="xs:string" minOccurs="0" />
+                  <xs:element name="sklep_ID" msprop:design-time-name="49e2729b-7633-4173-9859-08956f86f43a" msprop:DbColumnName="sklep_ID" msprop:FriendlyName="sklep_ID" type="xs:int" />
+                  <xs:element name="nrParagonu" msprop:design-time-name="d57416a7-1b00-4211-97fa-b2dc0abf578a" msprop:DbColumnName="nrParagonu" msprop:FriendlyName="nrParagonu">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="platnosc" msprop:design-time-name="78c14514-bc72-4647-8dc8-1ade20f3c8b2" msprop:DbColumnName="platnosc" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="godzina_ID" msprop:design-time-name="19eac672-7d43-4439-824f-0f59f3e30ef0" msprop:DbColumnName="godzina_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="data_ID" msprop:design-time-name="1c329238-4206-4901-8a12-289bab25b345" msprop:DbColumnName="data_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="ilosc" msprop:design-time-name="bf08cd2f-d0f7-4813-b670-ecc9470a460f" msprop:DbColumnName="ilosc" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="wartosc" msprop:design-time-name="17ef5c89-6fa2-4061-b037-abd5f3f73993" msprop:DbColumnName="wartosc" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="vat" msprop:design-time-name="bb5bd07c-451d-4183-bd35-eac343386867" msprop:DbColumnName="vat" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kwota_netto" msprop:design-time-name="b6817f27-a250-41d3-a7b8-ca5f4df1536f" msprop:DbColumnName="kwota_netto" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Sklep_W" msprop:design-time-name="a594e4a1-745e-42e3-917b-8946e649836f" msprop:FriendlyName="SL_Sklep_W" msprop:DbSchemaName="dbo" msprop:DbTableName="SL_Sklep_W" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="sklep_ID" msprop:design-time-name="523b8e8f-e745-44e2-9e38-6f71caedee0e" msprop:DbColumnName="sklep_ID" msprop:FriendlyName="sklep_ID" type="xs:int" />
+                  <xs:element name="sklep_Miasto" msprop:design-time-name="c70ea185-99f5-429e-be14-52a4afd2cfec" msprop:DbColumnName="sklep_Miasto" msprop:FriendlyName="sklep_Miasto">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sklep_Numer" msprop:design-time-name="da9f0a1f-ab55-47a4-ba69-c93e11746ef3" msprop:DbColumnName="sklep_Numer" msprop:FriendlyName="sklep_Numer">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sklep_KR" msprop:design-time-name="f6e4f481-6163-4b1e-a18d-bd43d94a353c" msprop:DbColumnName="sklep_KR" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="70" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Czas_W" msprop:design-time-name="2de11f4c-ff52-4dec-9b66-4c76a5a71957" msprop:FriendlyName="SL_Czas_W" msprop:DbSchemaName="dbo" msprop:DbTableName="SL_Czas_W" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="czas_ID" msprop:design-time-name="18437b98-0059-4a7e-be8e-5fc8ec200be9" msprop:DbColumnName="czas_ID" msprop:FriendlyName="czas_ID" type="xs:int" />
+                  <xs:element name="czas_Data" msprop:design-time-name="14ce79f6-2cbc-4144-885a-97961b79667c" msprop:DbColumnName="czas_Data" msprop:FriendlyName="czas_Data">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="19" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_miesiac" msprop:design-time-name="d35e87c5-c47f-46fe-9335-2b01c222e76d" msprop:DbColumnName="czas_miesiac" msprop:FriendlyName="czas_miesiac">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="16" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_MiesiacSort" msprop:design-time-name="aeac2f30-63c6-41bb-be16-22a78a7b0dd1" msprop:DbColumnName="czas_MiesiacSort" msprop:FriendlyName="czas_MiesiacSort" type="xs:int" />
+                  <xs:element name="czas_Rok" msprop:design-time-name="71931c63-2dee-4a10-a3db-2a510ec14fca" msprop:DbColumnName="czas_Rok" msprop:FriendlyName="czas_Rok">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienRoboczy" msdata:ReadOnly="true" msprop:design-time-name="7f694d9d-a87c-4258-a492-bb7c647aa3ad" msprop:DbColumnName="czas_DzienRoboczy" msprop:FriendlyName="czas_DzienRoboczy">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_Weekend" msdata:ReadOnly="true" msprop:design-time-name="33366156-0e51-4ea5-92d9-a5307d867ebf" msprop:DbColumnName="czas_Weekend" msprop:FriendlyName="czas_Weekend">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienTygodnia" msprop:design-time-name="fe8f2000-988f-4d1e-9354-dff1927612da" msprop:DbColumnName="czas_DzienTygodnia" msprop:FriendlyName="czas_DzienTygodnia">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienTygodniaSort" msprop:design-time-name="f90a9b18-1204-40ce-8160-d618c9b4e3f2" msprop:DbColumnName="czas_DzienTygodniaSort" msprop:FriendlyName="czas_DzienTygodniaSort" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Godzina_W" msprop:design-time-name="07e3ae6f-9ea4-47b3-a8a9-3bf7ae858463" msprop:FriendlyName="SL_Godzina_W" msprop:DbSchemaName="dbo" msprop:DbTableName="SL_Godzina_W" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="godzina_ID" msprop:design-time-name="0f12113e-a948-478b-a126-3a23284b7138" msprop:DbColumnName="godzina_ID" msprop:FriendlyName="godzina_ID" type="xs:int" />
+                  <xs:element name="godzina_GodzinaOd" msprop:design-time-name="4cfd4d5e-b4c2-4ed9-bdf1-54fe42e4e8f3" msprop:DbColumnName="godzina_GodzinaOd" msprop:FriendlyName="godzina_GodzinaOd" type="xs:int" />
+                  <xs:element name="godzina_GodzinaDo" msprop:design-time-name="4b08fb5a-9414-4120-83b3-0326f09f7fdb" msprop:DbColumnName="godzina_GodzinaDo" msprop:FriendlyName="godzina_GodzinaDo" type="xs:int" />
+                  <xs:element name="godzina_Nazwa" msprop:design-time-name="82b09f6e-4747-45e0-ab48-48a03656abe0" msprop:DbColumnName="godzina_Nazwa" msprop:FriendlyName="godzina_Nazwa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="godzina_NazwaSort" msprop:design-time-name="dcff1878-2fdc-4aef-8812-f1c289af71e1" msprop:DbColumnName="godzina_NazwaSort" msprop:FriendlyName="godzina_NazwaSort" type="xs:int" />
+                  <xs:element name="godzina_NazwaPoryDnia" msprop:design-time-name="f4131bbf-f91f-4a13-b80d-77df0f09c0c9" msprop:DbColumnName="godzina_NazwaPoryDnia" msprop:FriendlyName="godzina_NazwaPoryDnia">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="godzina_NazwaPoryDniaSort" msprop:design-time-name="86b5fff6-7294-4af2-874f-188dee3ea700" msprop:DbColumnName="godzina_NazwaPoryDniaSort" msprop:FriendlyName="godzina_NazwaPoryDniaSort" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Towar_W" msprop:design-time-name="93fa17d9-af71-435e-92a6-0fe713e3781c" msprop:FriendlyName="SL_Towar_W" msprop:DbSchemaName="dbo" msprop:DbTableName="SL_Towar_W" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="towar_Symbol" msprop:design-time-name="0d2e5246-6710-4b6d-bcd0-d67550826fdf" msprop:DbColumnName="towar_symbol" msprop:FriendlyName="towar_symbol">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_Nazwa" msprop:design-time-name="a7fa4b33-3e39-441c-8742-053d4a8d8918" msprop:DbColumnName="towar_nazwa" msprop:FriendlyName="towar_nazwa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="96" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_Typ" msprop:design-time-name="88fc2004-d7e9-447c-9995-7fd82b5362a2" msprop:DbColumnName="towar_typ" msprop:FriendlyName="towar_typ">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ID_towaru_centr" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="ea0112c5-c934-4ecb-9e28-6cb225c53691" msprop:DbColumnName="ID_towaru_centr" type="xs:string" />
+                  <xs:element name="towar_producent" msprop:design-time-name="c93fb961-bdd9-49e9-91b4-5e4ec91722c7" msprop:DbColumnName="towar_producent" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="70" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_grupa_m" msprop:design-time-name="23b54ab6-40a1-4701-92db-40e364d4496b" msprop:DbColumnName="towar_grupa_m" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_EAN" msprop:design-time-name="5640cada-bfc5-46ff-9e71-41274d4d59c5" msprop:DbColumnName="towar_EAN" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TB_Sprzedaz2020_F" msprop:design-time-name="09ada65b-17fe-400e-a32b-1411c453c2b6" msprop:FriendlyName="TB_Sprzedaz2020_F" msprop:DbSchemaName="dbo" msprop:DbTableName="TB_Sprzedaz2020_F" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fakt_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="98933a38-1e02-482a-8bca-e1862537fa62" msprop:DbColumnName="fakt_ID" msprop:FriendlyName="fakt_ID" type="xs:long" />
+                  <xs:element name="towar_ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="8b33ad66-6a13-4b22-9654-79a46de06b5d" msprop:DbColumnName="towar_ID" msprop:FriendlyName="towar_ID" type="xs:string" />
+                  <xs:element name="data_ID" msprop:design-time-name="2215d26c-b472-4951-aa31-592102824244" msprop:DbColumnName="data_ID" msprop:FriendlyName="data_ID" type="xs:int" />
+                  <xs:element name="sklep_ID" msprop:design-time-name="02d1c606-4240-4396-a445-a8521c3872c7" msprop:DbColumnName="sklep_ID" msprop:FriendlyName="sklep_ID" type="xs:int" />
+                  <xs:element name="ilosc" msprop:design-time-name="56a65588-50e1-4751-8cc1-c5ce2eb019fc" msprop:DbColumnName="ilosc" msprop:FriendlyName="ilosc" type="xs:decimal" />
+                  <xs:element name="wartosc" msprop:design-time-name="8e662777-0328-48a4-ab60-b5da84417ca6" msprop:DbColumnName="wartosc" msprop:FriendlyName="wartosc" type="xs:decimal" />
+                  <xs:element name="nrParagonu" msprop:design-time-name="1f9eadaa-cc39-441d-85b3-41c242d61a7b" msprop:DbColumnName="nrParagonu" msprop:FriendlyName="nrParagonu">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="platnosc" msprop:design-time-name="280de7a7-9f8f-48c9-bc80-24f7358effbd" msprop:DbColumnName="platnosc" msprop:FriendlyName="platnosc">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="godzina_ID" msprop:design-time-name="8df52d23-316b-469f-8dfa-8b3c3ecc9069" msprop:DbColumnName="godzina_ID" msprop:FriendlyName="godzina_ID" type="xs:int" />
+                  <xs:element name="vat" msprop:design-time-name="1a80e851-c3ff-4d9d-b1f9-5bde2369b3d5" msprop:DbColumnName="vat" msprop:FriendlyName="vat">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kwota_netto" msprop:design-time-name="770426c4-b105-4c1b-9963-9e66badd5025" msprop:DbColumnName="kwota_netto" msprop:FriendlyName="kwota_netto" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="SL_Czas_W" msprop:design-time-name="75408749-1ad2-4b0d-8770-ef679cbb9609" msprop:IsLogical="True" msprop:FriendlyName="SL_Czas_W_2019" msprop:DbTableName="SL_Czas_W_2019" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT     czas_ID, czas_Data, czas_DzienTygodnia, czas_DzienRoboczy, czas_Weekend, czas_miesiac, czas_Rok, czas_MiesiacSort, czas_DzienTygodniaSort&#xD;&#xA;FROM        TB_Czas_T&#xD;&#xA;WHERE     (czas_ID BETWEEN 20190101 AND 20191231)" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="czas_ID" msprop:design-time-name="b1f311ad-1b8f-4de3-8588-46c4999a2417" msprop:DbColumnName="czas_ID" msprop:FriendlyName="czas_ID" type="xs:int" />
+                  <xs:element name="czas_Data" msprop:design-time-name="a3ae4eb0-be10-432f-b169-981f8c31aaf8" msprop:DbColumnName="czas_Data" msprop:FriendlyName="czas_Data" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="19" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienTygodnia" msprop:design-time-name="44382e84-0163-4a58-b819-a2ce6b91fbf4" msprop:DbColumnName="czas_DzienTygodnia" msprop:FriendlyName="czas_DzienTygodnia" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienRoboczy" msprop:design-time-name="0f8125a2-dfb8-468d-8b50-4a99881c1377" msprop:DbColumnName="czas_DzienRoboczy" msprop:FriendlyName="czas_DzienRoboczy" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_Weekend" msprop:design-time-name="404b0ab5-5a47-4eab-a296-ca5b68f38a04" msprop:DbColumnName="czas_Weekend" msprop:FriendlyName="czas_Weekend" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_miesiac" msprop:design-time-name="128a133f-944b-4910-b799-e15f77894d8a" msprop:DbColumnName="czas_miesiac" msprop:FriendlyName="czas_miesiac" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="16" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_Rok" msprop:design-time-name="c8dea33c-4010-46e7-a3fa-d990f5e67fe9" msprop:DbColumnName="czas_Rok" msprop:FriendlyName="czas_Rok" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_MiesiacSort" msprop:design-time-name="4742fc73-2e9b-40fc-b3dc-47ed9f386a97" msprop:DbColumnName="czas_MiesiacSort" msprop:FriendlyName="czas_MiesiacSort" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_DzienTygodniaSort" msprop:design-time-name="efc4f4a9-9c30-40f0-9011-86da25156fe4" msprop:DbColumnName="czas_DzienTygodniaSort" msprop:FriendlyName="czas_DzienTygodniaSort" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TB_Sprzedaz2021_F" msprop:design-time-name="5da7b72b-cd29-4e81-bfe7-e4858ecd1a67" msprop:FriendlyName="TB_Sprzedaz2021_F" msprop:DbSchemaName="dbo" msprop:DbTableName="TB_Sprzedaz2021_F" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fakt_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="92974218-5033-45a1-bceb-0f98985ab5ba" msprop:DbColumnName="fakt_ID" msprop:FriendlyName="fakt_ID" type="xs:long" />
+                  <xs:element name="towar_ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="ddcdd103-45d6-4c54-9719-c6c01a55f865" msprop:DbColumnName="towar_ID" msprop:FriendlyName="towar_ID" type="xs:string" />
+                  <xs:element name="data_ID" msprop:design-time-name="10cf64f4-5d90-4dba-9156-c7103f398788" msprop:DbColumnName="data_ID" msprop:FriendlyName="data_ID" type="xs:int" />
+                  <xs:element name="sklep_ID" msprop:design-time-name="897ffc2c-4653-4cb8-b1bc-5f83889b321e" msprop:DbColumnName="sklep_ID" msprop:FriendlyName="sklep_ID" type="xs:int" />
+                  <xs:element name="ilosc" msprop:design-time-name="7ac5a7ba-98ee-463d-aaaf-156356a7537d" msprop:DbColumnName="ilosc" msprop:FriendlyName="ilosc" type="xs:decimal" />
+                  <xs:element name="wartosc" msprop:design-time-name="7193b7b2-2359-42bf-9d64-51c0ae06c428" msprop:DbColumnName="wartosc" msprop:FriendlyName="wartosc" type="xs:decimal" />
+                  <xs:element name="nrParagonu" msprop:design-time-name="aa28c974-e438-4ad2-94ce-471220a03aee" msprop:DbColumnName="nrParagonu" msprop:FriendlyName="nrParagonu">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="platnosc" msprop:design-time-name="c398fbd4-a5e3-481e-ab29-cd513468b1ff" msprop:DbColumnName="platnosc" msprop:FriendlyName="platnosc">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="godzina_ID" msprop:design-time-name="ceece429-867e-4913-915f-ca4cde9fdba3" msprop:DbColumnName="godzina_ID" msprop:FriendlyName="godzina_ID" type="xs:int" />
+                  <xs:element name="vat" msprop:design-time-name="5868226f-7288-4b64-a0b6-a4410894271b" msprop:DbColumnName="vat" msprop:FriendlyName="vat">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kwota_netto" msprop:design-time-name="8e8f98a3-1c62-462f-a44f-0934a1f6d89f" msprop:DbColumnName="kwota_netto" msprop:FriendlyName="kwota_netto" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="SL_Czas_W_2020" msprop:design-time-name="31167321-8384-41db-a862-1283f4f5bfd3" msprop:IsLogical="True" msprop:FriendlyName="SL_Czas_W_2020" msprop:DbTableName="SL_Czas_W_2020" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT     czas_ID, czas_Data, czas_DzienTygodnia, czas_DzienRoboczy, czas_Weekend, czas_miesiac, czas_Rok, czas_MiesiacSort, czas_DzienTygodniaSort&#xD;&#xA;FROM        TB_Czas_T&#xD;&#xA;WHERE     (czas_ID BETWEEN 20200101 AND 20201231)" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="czas_ID" msprop:design-time-name="144bf145-a75a-428c-8818-6b0573b14c22" msprop:DbColumnName="czas_ID" msprop:FriendlyName="czas_ID" type="xs:int" />
+                  <xs:element name="czas_Data" msprop:design-time-name="38cda211-7764-424b-91c1-3f651b908a08" msprop:DbColumnName="czas_Data" msprop:FriendlyName="czas_Data" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="19" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienTygodnia" msprop:design-time-name="c138cbc8-b77d-420d-9e3d-7ba548f344c9" msprop:DbColumnName="czas_DzienTygodnia" msprop:FriendlyName="czas_DzienTygodnia" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienRoboczy" msprop:design-time-name="fb18925e-2145-46db-ad58-f30f8de392c7" msprop:DbColumnName="czas_DzienRoboczy" msprop:FriendlyName="czas_DzienRoboczy" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_Weekend" msprop:design-time-name="f3487ba5-b7ee-4801-99b0-853dd57c2eec" msprop:DbColumnName="czas_Weekend" msprop:FriendlyName="czas_Weekend" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_miesiac" msprop:design-time-name="77cef10b-1f77-44d8-8e9b-a74b72b00bf7" msprop:DbColumnName="czas_miesiac" msprop:FriendlyName="czas_miesiac" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="16" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_Rok" msprop:design-time-name="15d6f5b1-462e-48bd-8422-a4b13aa752d8" msprop:DbColumnName="czas_Rok" msprop:FriendlyName="czas_Rok" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_MiesiacSort" msprop:design-time-name="f9210233-f373-4d1b-bef7-083aca6abdef" msprop:DbColumnName="czas_MiesiacSort" msprop:FriendlyName="czas_MiesiacSort" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_DzienTygodniaSort" msprop:design-time-name="2b2942ee-dcb3-495a-bf42-34e2cc423f9b" msprop:DbColumnName="czas_DzienTygodniaSort" msprop:FriendlyName="czas_DzienTygodniaSort" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TB_Sprzedaz2022_F" msprop:design-time-name="e9a3ebb5-c671-4523-891e-39be075c5dcf" msprop:FriendlyName="TB_Sprzedaz2022_F" msprop:DbSchemaName="dbo" msprop:DbTableName="TB_Sprzedaz2022_F" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fakt_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="63beadc4-14f9-48ae-ba8e-9f7532c0df21" msprop:DbColumnName="fakt_ID" msprop:FriendlyName="fakt_ID" type="xs:long" />
+                  <xs:element name="towar_ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="5bd9097c-be0e-4ae1-ba7c-53961eed0a31" msprop:DbColumnName="towar_ID" msprop:FriendlyName="towar_ID" type="xs:string" />
+                  <xs:element name="data_ID" msprop:design-time-name="7a862076-5c9f-40be-8df3-60f181d9ccf8" msprop:DbColumnName="data_ID" msprop:FriendlyName="data_ID" type="xs:int" />
+                  <xs:element name="sklep_ID" msprop:design-time-name="838a3a41-a153-40c8-a703-abd04c9fc77d" msprop:DbColumnName="sklep_ID" msprop:FriendlyName="sklep_ID" type="xs:int" />
+                  <xs:element name="ilosc" msprop:design-time-name="770af476-2d82-4faa-be6b-973f6a303ba1" msprop:DbColumnName="ilosc" msprop:FriendlyName="ilosc" type="xs:decimal" />
+                  <xs:element name="wartosc" msprop:design-time-name="54509d01-b95d-438a-a3e4-c637603cff03" msprop:DbColumnName="wartosc" msprop:FriendlyName="wartosc" type="xs:decimal" />
+                  <xs:element name="nrParagonu" msprop:design-time-name="89eaab17-0b97-4338-8220-eb67d7c6d5ba" msprop:DbColumnName="nrParagonu" msprop:FriendlyName="nrParagonu">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="platnosc" msprop:design-time-name="36d8185e-fb35-47c6-8e46-fa6f3843e5e8" msprop:DbColumnName="platnosc" msprop:FriendlyName="platnosc">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="godzina_ID" msprop:design-time-name="d49cd66b-5e3c-4af1-9795-11fd88f3acf4" msprop:DbColumnName="godzina_ID" msprop:FriendlyName="godzina_ID" type="xs:int" />
+                  <xs:element name="vat" msprop:design-time-name="102c87c0-9395-45a8-a2f2-e99ab8ad9ab0" msprop:DbColumnName="vat" msprop:FriendlyName="vat">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kwota_netto" msprop:design-time-name="026b1d96-2c3b-4365-8085-86bf118fad2c" msprop:DbColumnName="kwota_netto" msprop:FriendlyName="kwota_netto" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="kod_kreskowy" msprop:design-time-name="3e28e671-981e-4f41-b6c1-f4d22c2015e1" msprop:DbColumnName="kod_kreskowy" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="rabat_procent" msprop:design-time-name="d5e37b6e-bc82-48bb-922c-1d4f05da7ab4" msprop:DbColumnName="rabat_procent" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="kwota_rabatu" msprop:design-time-name="465603b9-2b4a-4be4-a60f-6618097f48fe" msprop:DbColumnName="kwota_rabatu" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="SL_Czas_W_2021" msprop:design-time-name="3c388f20-9dbb-4078-83fb-15ff6308f115" msprop:IsLogical="True" msprop:FriendlyName="SL_Czas_W_2021" msprop:DbTableName="SL_Czas_W_2021" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT     czas_ID, czas_Data, czas_DzienTygodnia, czas_DzienRoboczy, czas_Weekend, czas_miesiac, czas_Rok, czas_MiesiacSort, czas_DzienTygodniaSort&#xD;&#xA;FROM        TB_Czas_T&#xD;&#xA;WHERE     (czas_ID BETWEEN 20210101 AND 20211231)" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="czas_ID" msprop:design-time-name="0e7164eb-8317-47ce-a7cf-656b0469e925" msprop:DbColumnName="czas_ID" msprop:FriendlyName="czas_ID" type="xs:int" />
+                  <xs:element name="czas_Data" msprop:design-time-name="3590b933-decf-4c29-88ce-aa679c9e0b30" msprop:DbColumnName="czas_Data" msprop:FriendlyName="czas_Data" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="19" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienTygodnia" msprop:design-time-name="ab98d3bb-54c9-430c-ae9e-028f0c2e26c6" msprop:DbColumnName="czas_DzienTygodnia" msprop:FriendlyName="czas_DzienTygodnia" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienRoboczy" msprop:design-time-name="38ed29d8-29a6-4c14-b8b1-eccbc6f56a61" msprop:DbColumnName="czas_DzienRoboczy" msprop:FriendlyName="czas_DzienRoboczy" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_Weekend" msprop:design-time-name="033161f1-00d4-492f-b458-068184c2dd63" msprop:DbColumnName="czas_Weekend" msprop:FriendlyName="czas_Weekend" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_miesiac" msprop:design-time-name="13dde4d2-d5a1-4586-98df-1359c2582ca3" msprop:DbColumnName="czas_miesiac" msprop:FriendlyName="czas_miesiac" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="16" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_Rok" msprop:design-time-name="3475fdf0-ddb0-4566-9c28-2b91e3f700df" msprop:DbColumnName="czas_Rok" msprop:FriendlyName="czas_Rok" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_MiesiacSort" msprop:design-time-name="c7085f6d-2f72-49eb-acf3-17d584a2671b" msprop:DbColumnName="czas_MiesiacSort" msprop:FriendlyName="czas_MiesiacSort" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_DzienTygodniaSort" msprop:design-time-name="8074fbe2-ebfb-4fa3-9faf-101269713e1a" msprop:DbColumnName="czas_DzienTygodniaSort" msprop:FriendlyName="czas_DzienTygodniaSort" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Towar_W_2020" msprop:design-time-name="31eb0b3b-abd7-4333-8cd3-8ca2efb16917" msprop:FriendlyName="SL_Towar_W_2020" msprop:DbSchemaName="dbo" msprop:DbTableName="SL_Towar_W_2020" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_towaru_centr" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="15710e3c-e764-4d1e-b827-d609501c9321" msprop:DbColumnName="ID_towaru_centr" msprop:FriendlyName="ID_towaru_centr" type="xs:string" />
+                  <xs:element name="towar_Symbol_ID" msprop:design-time-name="75cd498b-f814-4853-9111-9fe29a3ece11" msprop:DbColumnName="towar_Symbol_ID" msprop:FriendlyName="towar_Symbol_ID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_Nazwa" msprop:design-time-name="7c7e14d7-4081-4d78-ae13-3dfc036bfb28" msprop:DbColumnName="towar_Nazwa" msprop:FriendlyName="towar_Nazwa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_Rodzina" msprop:design-time-name="92474f63-b269-484a-a04c-fc2b67991f9d" msprop:DbColumnName="towar_Rodzina" msprop:FriendlyName="towar_Rodzina">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_Grupa" msprop:design-time-name="02a7d2b2-4b4c-4597-8bc7-24986144a8ed" msprop:DbColumnName="towar_Grupa" msprop:FriendlyName="towar_Grupa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="grupa_m" msprop:design-time-name="d88d4731-8520-45b5-9fef-a3691a3d636e" msprop:DbColumnName="grupa_m" msprop:FriendlyName="grupa_m">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Towar_W_2019" msprop:design-time-name="e64c6691-43c4-4f31-bd6a-fa3cd5516b48" msprop:FriendlyName="SL_Towar_W_2019" msprop:DbSchemaName="dbo" msprop:DbTableName="SL_Towar_W_2019" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_towaru_centr" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="68214d7f-8a6e-40a6-a65a-96519905b65a" msprop:DbColumnName="ID_towaru_centr" msprop:FriendlyName="ID_towaru_centr" type="xs:string" />
+                  <xs:element name="towar_Symbol_ID" msprop:design-time-name="90f2c2e5-e237-4945-970a-9b586b949c8c" msprop:DbColumnName="towar_Symbol_ID" msprop:FriendlyName="towar_Symbol_ID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_Nazwa" msprop:design-time-name="2ed61eb3-ed0c-40f3-bedf-c90859efbf03" msprop:DbColumnName="towar_Nazwa" msprop:FriendlyName="towar_Nazwa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_Rodzina" msprop:design-time-name="b76e303f-4213-4cc2-a744-069e5c03c37d" msprop:DbColumnName="towar_Rodzina" msprop:FriendlyName="towar_Rodzina">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_Grupa" msprop:design-time-name="58001b08-7ac7-4d93-b587-55be72c344e9" msprop:DbColumnName="towar_Grupa" msprop:FriendlyName="towar_Grupa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="grupa_m" msprop:design-time-name="0b08f2ae-0730-4de0-84c2-223662ff01fb" msprop:DbColumnName="grupa_m" msprop:FriendlyName="grupa_m">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Towar_W_2021" msprop:design-time-name="02c34c97-d77b-4a15-9bb9-c30c09369f30" msprop:FriendlyName="SL_Towar_W_2021" msprop:DbSchemaName="dbo" msprop:DbTableName="SL_Towar_W_2021" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_towaru_centr" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="40d00b35-cd0d-4fe3-998c-9f44e69a5937" msprop:DbColumnName="ID_towaru_centr" msprop:FriendlyName="ID_towaru_centr" type="xs:string" />
+                  <xs:element name="towar_symbol" msprop:design-time-name="ae8a9a32-2c83-48d2-ac89-15d73af125df" msprop:DbColumnName="towar_symbol" msprop:FriendlyName="towar_symbol">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_nazwa" msprop:design-time-name="e56ada2e-d27e-4abc-9991-d59784208c56" msprop:DbColumnName="towar_nazwa" msprop:FriendlyName="towar_nazwa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_producent" msprop:design-time-name="4dd5fc74-34bb-4964-a20d-fb536291a05b" msprop:DbColumnName="towar_producent" msprop:FriendlyName="towar_producent">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_typ" msprop:design-time-name="9ff11829-d907-4f39-82b9-950b67521340" msprop:DbColumnName="towar_typ" msprop:FriendlyName="towar_typ">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_grupa_m" msprop:design-time-name="f1ad3b20-deba-4a54-81ff-fbe41d48527d" msprop:DbColumnName="towar_grupa_m" msprop:FriendlyName="towar_grupa_m">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="SL_Czas_W_2022" msprop:design-time-name="81a7b949-42e9-48f7-9fde-d957304f23b0" msprop:IsLogical="True" msprop:FriendlyName="SL_Czas_W_2022" msprop:DbTableName="SL_Czas_W_2022" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT     czas_ID, czas_Data, czas_DzienTygodnia, czas_DzienRoboczy, czas_Weekend, czas_miesiac, czas_Rok, czas_MiesiacSort, czas_DzienTygodniaSort&#xD;&#xA;FROM        TB_Czas_T&#xD;&#xA;WHERE     (czas_ID BETWEEN 20220101 AND 20221231)" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="czas_ID" msprop:design-time-name="99171086-fb54-452e-a92e-dd787a56c99f" msprop:DbColumnName="czas_ID" msprop:FriendlyName="czas_ID" type="xs:int" />
+                  <xs:element name="czas_Data" msprop:design-time-name="a6031834-f95c-4ced-881a-f7be4e0db3ed" msprop:DbColumnName="czas_Data" msprop:FriendlyName="czas_Data" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="19" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienTygodnia" msprop:design-time-name="540325a2-f4bf-45fa-9717-e2cfa8a93229" msprop:DbColumnName="czas_DzienTygodnia" msprop:FriendlyName="czas_DzienTygodnia" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienRoboczy" msprop:design-time-name="12790713-6c1a-4250-90a0-d5a74ffbf6a4" msprop:DbColumnName="czas_DzienRoboczy" msprop:FriendlyName="czas_DzienRoboczy" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_Weekend" msprop:design-time-name="7672ea92-48d0-4ea7-99a1-b693d4e63857" msprop:DbColumnName="czas_Weekend" msprop:FriendlyName="czas_Weekend" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_miesiac" msprop:design-time-name="8054085d-81a0-49e1-a7ba-15150f191bd1" msprop:DbColumnName="czas_miesiac" msprop:FriendlyName="czas_miesiac" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="16" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_Rok" msprop:design-time-name="ed5b8c58-504b-46bd-8eaf-63318863baef" msprop:DbColumnName="czas_Rok" msprop:FriendlyName="czas_Rok" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_MiesiacSort" msprop:design-time-name="81313983-27e2-46eb-8a86-106cd32ea8ef" msprop:DbColumnName="czas_MiesiacSort" msprop:FriendlyName="czas_MiesiacSort" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_DzienTygodniaSort" msprop:design-time-name="06faebeb-88e0-4962-8347-64daa941b615" msprop:DbColumnName="czas_DzienTygodniaSort" msprop:FriendlyName="czas_DzienTygodniaSort" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TB_Sprzedaz2023_F" msprop:design-time-name="027b2d50-1dd3-4730-b953-66424c3337a4" msprop:FriendlyName="TB_Sprzedaz2023_F" msprop:DbSchemaName="dbo" msprop:DbTableName="TB_Sprzedaz2023_F" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fakt_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="b7ffba85-436f-4b77-80d6-ea1c14d2abcb" msprop:DbColumnName="fakt_ID" msprop:FriendlyName="fakt_ID" type="xs:long" />
+                  <xs:element name="towar_ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="66da0da4-8a64-43c1-a26e-bf0886253943" msprop:DbColumnName="towar_ID" msprop:FriendlyName="towar_ID" type="xs:string" />
+                  <xs:element name="data_ID" msprop:design-time-name="d08c18e6-3939-421c-9ec2-75e5551c2047" msprop:DbColumnName="data_ID" msprop:FriendlyName="data_ID" type="xs:int" />
+                  <xs:element name="sklep_ID" msprop:design-time-name="92d05b25-2583-4a53-9848-3516463b57eb" msprop:DbColumnName="sklep_ID" msprop:FriendlyName="sklep_ID" type="xs:int" />
+                  <xs:element name="ilosc" msprop:design-time-name="455575f2-ba9b-4f98-a615-effcdf8b36f9" msprop:DbColumnName="ilosc" msprop:FriendlyName="ilosc" type="xs:decimal" />
+                  <xs:element name="wartosc" msprop:design-time-name="ab3161b9-1cd4-485b-ae72-246e4e712f96" msprop:DbColumnName="wartosc" msprop:FriendlyName="wartosc" type="xs:decimal" />
+                  <xs:element name="nrParagonu" msprop:design-time-name="2a5a2050-eda8-4afa-97a0-7ae133cc7a99" msprop:DbColumnName="nrParagonu" msprop:FriendlyName="nrParagonu">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="platnosc" msprop:design-time-name="c4db0eea-1803-4d6f-9136-5afe9ba6f3d4" msprop:DbColumnName="platnosc" msprop:FriendlyName="platnosc">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="godzina_ID" msprop:design-time-name="9998401b-f354-4f5a-a8ad-406772221a1b" msprop:DbColumnName="godzina_ID" msprop:FriendlyName="godzina_ID" type="xs:int" />
+                  <xs:element name="vat" msprop:design-time-name="a8ed1515-f5d3-4595-906a-baeb0122824a" msprop:DbColumnName="vat" msprop:FriendlyName="vat">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kwota_netto" msprop:design-time-name="6e1a18ba-d6ad-422b-b8d7-55858236cc7b" msprop:DbColumnName="kwota_netto" msprop:FriendlyName="kwota_netto" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="kod_kreskowy" msprop:design-time-name="a6b5757e-d57d-4b4a-be98-061b1f35a773" msprop:DbColumnName="kod_kreskowy" msprop:FriendlyName="kod_kreskowy" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="rabat_procent" msprop:design-time-name="e097948b-6d83-45c5-83aa-5222fe6aa239" msprop:DbColumnName="rabat_procent" msprop:FriendlyName="rabat_procent" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="kwota_rabatu" msprop:design-time-name="8d69a997-ccd3-4099-af97-4c96113c0bfd" msprop:DbColumnName="kwota_rabatu" msprop:FriendlyName="kwota_rabatu" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Towar_W_2023" msprop:design-time-name="396c69e8-9d45-4be6-beb8-bbccc3903963" msprop:FriendlyName="SL_Towar_W_2023" msprop:DbSchemaName="dbo" msprop:DbTableName="SL_Towar_W_2023" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_towaru_centr" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="08dee9e2-6b41-4afa-a60e-5409423d4a8c" msprop:DbColumnName="ID_towaru_centr" msprop:FriendlyName="ID_towaru_centr" type="xs:string" />
+                  <xs:element name="towar_symbol" msprop:design-time-name="c64191cd-fdca-48cd-ab40-d218e0ed3a12" msprop:DbColumnName="towar_symbol" msprop:FriendlyName="towar_symbol">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_nazwa" msprop:design-time-name="395ca4f7-602d-42e0-8f78-1b3d5464d38e" msprop:DbColumnName="towar_nazwa" msprop:FriendlyName="towar_nazwa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="96" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_producent" msprop:design-time-name="c9d65955-a6ab-4108-86bf-6fec349f3c1f" msprop:DbColumnName="towar_producent" msprop:FriendlyName="towar_producent">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="70" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_typ" msprop:design-time-name="032ddfc1-8d8e-4eed-8d0d-fbcfb94b5381" msprop:DbColumnName="towar_typ" msprop:FriendlyName="towar_typ">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_grupa_m" msprop:design-time-name="1c0c551a-95ec-4660-863b-956afe14141a" msprop:DbColumnName="towar_grupa_m" msprop:FriendlyName="towar_grupa_m">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_EAN" msprop:design-time-name="9d72fe58-ab91-4d53-9706-23fe6dbcdf70" msprop:DbColumnName="towar_EAN" msprop:FriendlyName="towar_EAN" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="SL_Czas_W_2023" msprop:design-time-name="f6937e2c-f77e-4b1e-a1aa-ad13f4e24994" msprop:IsLogical="True" msprop:FriendlyName="SL_Czas_W_2023" msprop:DbTableName="SL_Czas_W_2023" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT     czas_ID, czas_Data, czas_DzienTygodnia, czas_DzienRoboczy, czas_Weekend, czas_miesiac, czas_Rok, czas_MiesiacSort, czas_DzienTygodniaSort&#xD;&#xA;FROM        TB_Czas_T&#xD;&#xA;WHERE     (czas_ID BETWEEN 20230101 AND 20231231)" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="czas_ID" msprop:design-time-name="2f55276b-4d85-4fd7-8921-05796a02b589" msprop:DbColumnName="czas_ID" msprop:FriendlyName="czas_ID" type="xs:int" />
+                  <xs:element name="czas_Data" msprop:design-time-name="3ec1781e-2ab6-42c7-99ea-02130dd1e980" msprop:DbColumnName="czas_Data" msprop:FriendlyName="czas_Data" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="19" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienTygodnia" msprop:design-time-name="82538ea4-3458-4421-86ca-4a9fc3cc7d56" msprop:DbColumnName="czas_DzienTygodnia" msprop:FriendlyName="czas_DzienTygodnia" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienRoboczy" msprop:design-time-name="04391070-b2bc-46f4-bf1f-b85bda5ae534" msprop:DbColumnName="czas_DzienRoboczy" msprop:FriendlyName="czas_DzienRoboczy" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_Weekend" msprop:design-time-name="b80acefa-99de-48a8-9e33-9692198d12d5" msprop:DbColumnName="czas_Weekend" msprop:FriendlyName="czas_Weekend" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_miesiac" msprop:design-time-name="772d32ff-adc3-4ea8-8680-c1b05b2a1e4b" msprop:DbColumnName="czas_miesiac" msprop:FriendlyName="czas_miesiac" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="16" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_Rok" msprop:design-time-name="8c988832-a71d-4ed7-a4b9-daab0bb124a2" msprop:DbColumnName="czas_Rok" msprop:FriendlyName="czas_Rok" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_MiesiacSort" msprop:design-time-name="d344c298-a5b3-4ab4-8c0c-b177c2743631" msprop:DbColumnName="czas_MiesiacSort" msprop:FriendlyName="czas_MiesiacSort" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_DzienTygodniaSort" msprop:design-time-name="2fb694cc-f344-477b-a0f7-65c9e0d20000" msprop:DbColumnName="czas_DzienTygodniaSort" msprop:FriendlyName="czas_DzienTygodniaSort" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TB_Sprzedaz2024_F" msprop:design-time-name="d3273180-43e6-4405-94e8-4c28b88b8d38" msprop:FriendlyName="TB_Sprzedaz2024_F" msprop:DbSchemaName="dbo" msprop:DbTableName="TB_Sprzedaz2024_F" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fakt_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="3ab3072d-b6f5-4e8b-b78c-675b17afef58" msprop:DbColumnName="fakt_ID" msprop:FriendlyName="fakt_ID" type="xs:long" />
+                  <xs:element name="towar_ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="740d5d0d-923f-4825-8d31-895f0a925b19" msprop:DbColumnName="towar_ID" msprop:FriendlyName="towar_ID" type="xs:string" />
+                  <xs:element name="data_ID" msprop:design-time-name="61d4b722-96d9-4ba9-982d-b2cdab4a8f05" msprop:DbColumnName="data_ID" msprop:FriendlyName="data_ID" type="xs:int" />
+                  <xs:element name="sklep_ID" msprop:design-time-name="90139077-a7cd-44f0-b08a-929027d081cc" msprop:DbColumnName="sklep_ID" msprop:FriendlyName="sklep_ID" type="xs:int" />
+                  <xs:element name="ilosc" msprop:design-time-name="9c03ed39-d5fb-4b6b-8f46-62003932c33f" msprop:DbColumnName="ilosc" msprop:FriendlyName="ilosc" type="xs:decimal" />
+                  <xs:element name="wartosc" msprop:design-time-name="8cd125a7-f175-4506-a830-d56f4edc2aaa" msprop:DbColumnName="wartosc" msprop:FriendlyName="wartosc" type="xs:decimal" />
+                  <xs:element name="nrParagonu" msprop:design-time-name="2e8c22dd-764b-4e98-96d9-3cf7909730bf" msprop:DbColumnName="nrParagonu" msprop:FriendlyName="nrParagonu">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="platnosc" msprop:design-time-name="ee33187f-3c0b-4d6f-9a22-cb25dac63edb" msprop:DbColumnName="platnosc" msprop:FriendlyName="platnosc">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="godzina_ID" msprop:design-time-name="ec798dcb-9532-42b8-936f-fb9f6a79b6e0" msprop:DbColumnName="godzina_ID" msprop:FriendlyName="godzina_ID" type="xs:int" />
+                  <xs:element name="vat" msprop:design-time-name="97e8dac0-6ef0-49fd-9bbf-dacb3e5dbf0e" msprop:DbColumnName="vat" msprop:FriendlyName="vat">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kwota_netto" msprop:design-time-name="d04dea2c-f740-4d49-bb6d-83d97ca98d9f" msprop:DbColumnName="kwota_netto" msprop:FriendlyName="kwota_netto" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="kod_kreskowy" msprop:design-time-name="2937b3e4-eaaa-43f9-ae0d-120d8a81bc46" msprop:DbColumnName="kod_kreskowy" msprop:FriendlyName="kod_kreskowy" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="rabat_procent" msprop:design-time-name="cae953eb-358d-4318-99ae-325499a11771" msprop:DbColumnName="rabat_procent" msprop:FriendlyName="rabat_procent" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="kwota_rabatu" msprop:design-time-name="9ad27813-1130-419d-834e-86a6b2605d5f" msprop:DbColumnName="kwota_rabatu" msprop:FriendlyName="kwota_rabatu" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Towar_W_2024" msprop:design-time-name="7d976c98-ce73-4740-810d-43e56d26ccd9" msprop:FriendlyName="SL_Towar_W_2024" msprop:DbSchemaName="dbo" msprop:DbTableName="SL_Towar_W_2024" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_towaru_centr" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="e290f536-60a9-4f36-81ff-760147bcd7f4" msprop:DbColumnName="ID_towaru_centr" msprop:FriendlyName="ID_towaru_centr" type="xs:string" />
+                  <xs:element name="towar_symbol" msprop:design-time-name="b65bb1da-59e7-4249-aee7-55c9329f70d1" msprop:DbColumnName="towar_symbol" msprop:FriendlyName="towar_symbol">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_nazwa" msprop:design-time-name="e7bfd0be-2e7b-44c5-b74d-8636043f7490" msprop:DbColumnName="towar_nazwa" msprop:FriendlyName="towar_nazwa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="96" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_producent" msprop:design-time-name="d7e9dd18-1c3f-4611-b3e6-f537b94a5011" msprop:DbColumnName="towar_producent" msprop:FriendlyName="towar_producent">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="70" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_typ" msprop:design-time-name="58c9ee69-d145-4647-b056-f91bd7e3245c" msprop:DbColumnName="towar_typ" msprop:FriendlyName="towar_typ">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_grupa_m" msprop:design-time-name="2bdad1aa-ae18-4ccc-b075-975e93a97cc7" msprop:DbColumnName="towar_grupa_m" msprop:FriendlyName="towar_grupa_m">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_EAN" msprop:design-time-name="7e70a74b-7b69-4261-a034-e6cd23423e8c" msprop:DbColumnName="towar_EAN" msprop:FriendlyName="towar_EAN" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Sklep2024_W" msprop:design-time-name="19acfa50-28a7-47c9-98ce-117d03e26282" msprop:FriendlyName="SL_Sklep2024_W" msprop:DbSchemaName="dbo" msprop:DbTableName="SL_Sklep2024_W" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="sklep_ID" msprop:design-time-name="abde3c3f-6017-406a-8ec0-c6f373a0810b" msprop:DbColumnName="sklep_ID" msprop:FriendlyName="sklep_ID" type="xs:int" />
+                  <xs:element name="sklep_Miasto" msprop:design-time-name="f95ffbc3-e92b-45aa-b959-ec2ae1eb32ef" msprop:DbColumnName="sklep_Miasto" msprop:FriendlyName="sklep_Miasto">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sklep_Numer" msprop:design-time-name="6070e5e9-9b0c-4be2-91fb-55af69dae7d2" msprop:DbColumnName="sklep_Numer" msprop:FriendlyName="sklep_Numer">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sklep_KR" msprop:design-time-name="0cd78851-aa51-454e-8355-0fc239a8c11a" msprop:DbColumnName="sklep_KR" msprop:FriendlyName="sklep_KR" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="70" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TB_Sprzedaz2025_F" msprop:design-time-name="7bacd473-1c2f-49d0-9056-f4889a3aebe4" msprop:FriendlyName="TB_Sprzedaz2025_F" msprop:DbSchemaName="dbo" msprop:DbTableName="TB_Sprzedaz2025_F" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fakt_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="a950f661-939f-4c84-87bc-d96f4f758bca" msprop:DbColumnName="fakt_ID" msprop:FriendlyName="fakt_ID" type="xs:long" />
+                  <xs:element name="towar_ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="9ca86766-d540-47fe-a9be-a50a75a3daa5" msprop:DbColumnName="towar_ID" msprop:FriendlyName="towar_ID" type="xs:string" />
+                  <xs:element name="data_ID" msprop:design-time-name="894cf407-75ca-4888-830a-c675df4f97a3" msprop:DbColumnName="data_ID" msprop:FriendlyName="data_ID" type="xs:int" />
+                  <xs:element name="sklep_ID" msprop:design-time-name="814fc3f0-d762-45eb-b64a-a15cfa00570b" msprop:DbColumnName="sklep_ID" msprop:FriendlyName="sklep_ID" type="xs:int" />
+                  <xs:element name="ilosc" msprop:design-time-name="958a1d7f-36a4-46e9-bb68-3809673956e8" msprop:DbColumnName="ilosc" msprop:FriendlyName="ilosc" type="xs:decimal" />
+                  <xs:element name="wartosc" msprop:design-time-name="fc3ff899-30c2-456e-9da4-0041357b68c8" msprop:DbColumnName="wartosc" msprop:FriendlyName="wartosc" type="xs:decimal" />
+                  <xs:element name="nrParagonu" msprop:design-time-name="88f0ab2b-0c92-4c36-af15-488dc59f1447" msprop:DbColumnName="nrParagonu" msprop:FriendlyName="nrParagonu">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="platnosc" msprop:design-time-name="b38f7397-9e04-40cb-b00c-3782c8d64329" msprop:DbColumnName="platnosc" msprop:FriendlyName="platnosc">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="godzina_ID" msprop:design-time-name="d8335fbc-e39e-49e4-864e-c907ce73a554" msprop:DbColumnName="godzina_ID" msprop:FriendlyName="godzina_ID" type="xs:int" />
+                  <xs:element name="vat" msprop:design-time-name="50fd6e32-054c-4639-9a38-dd06ef4d7ee6" msprop:DbColumnName="vat" msprop:FriendlyName="vat">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kwota_netto" msprop:design-time-name="6d8d058e-060a-40db-a42a-b694938c720a" msprop:DbColumnName="kwota_netto" msprop:FriendlyName="kwota_netto" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="kod_kreskowy" msprop:design-time-name="310749ac-29ff-469e-a4ee-a429fa1ff8fc" msprop:DbColumnName="kod_kreskowy" msprop:FriendlyName="kod_kreskowy" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="rabat_procent" msprop:design-time-name="cacdbcf3-5cdd-4e03-944e-1af15d133cab" msprop:DbColumnName="rabat_procent" msprop:FriendlyName="rabat_procent" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="kwota_rabatu" msprop:design-time-name="266c7bcc-b827-466b-98d5-ee865a21e457" msprop:DbColumnName="kwota_rabatu" msprop:FriendlyName="kwota_rabatu" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Sklep2025_W" msprop:design-time-name="e61b1af6-f72f-437a-9e31-1150b17bde5e" msprop:FriendlyName="SL_Sklep2025_W" msprop:DbSchemaName="dbo" msprop:DbTableName="SL_Sklep2025_W" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="sklep_ID" msprop:design-time-name="630c754a-3872-46c4-a7bd-bd3a8277c63d" msprop:DbColumnName="sklep_ID" msprop:FriendlyName="sklep_ID" type="xs:int" />
+                  <xs:element name="sklep_Miasto" msprop:design-time-name="0b36e5b3-eb4e-4474-8b9d-517f7c8c342a" msprop:DbColumnName="sklep_Miasto" msprop:FriendlyName="sklep_Miasto">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sklep_Numer" msprop:design-time-name="ddf5e8da-7af3-47cd-ac72-8ce2da4b7462" msprop:DbColumnName="sklep_Numer" msprop:FriendlyName="sklep_Numer">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sklep_KR" msprop:design-time-name="deb42a0e-9b1c-40f6-aebe-c6d69c21d1e9" msprop:DbColumnName="sklep_KR" msprop:FriendlyName="sklep_KR" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="70" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Towar_W_2025" msprop:design-time-name="18f00083-7182-433b-933d-85589e06f1b4" msprop:FriendlyName="SL_Towar_W_2025" msprop:DbSchemaName="dbo" msprop:DbTableName="SL_Towar_W_2025" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_towaru_centr" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="96946803-17b4-4211-b064-154195d59642" msprop:DbColumnName="ID_towaru_centr" msprop:FriendlyName="ID_towaru_centr" type="xs:string" />
+                  <xs:element name="towar_symbol" msprop:design-time-name="59efce3e-4144-4aa4-8704-193ac9992517" msprop:DbColumnName="towar_symbol" msprop:FriendlyName="towar_symbol">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_nazwa" msprop:design-time-name="7cb07c41-13c6-40eb-bcdf-5ee371fc9c92" msprop:DbColumnName="towar_nazwa" msprop:FriendlyName="towar_nazwa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="96" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_producent" msprop:design-time-name="93c6a816-cccb-4398-8729-708c2da6d4a4" msprop:DbColumnName="towar_producent" msprop:FriendlyName="towar_producent">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="70" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_typ" msprop:design-time-name="8542abf9-28d0-4c13-b0db-f0ffe2a0b7dc" msprop:DbColumnName="towar_typ" msprop:FriendlyName="towar_typ">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_grupa_m" msprop:design-time-name="edd4eeb3-7bb4-4e0e-8859-472f45b42be5" msprop:DbColumnName="towar_grupa_m" msprop:FriendlyName="towar_grupa_m">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_EAN" msprop:design-time-name="8a195760-a0fd-499e-9b62-9bd624c19a49" msprop:DbColumnName="towar_EAN" msprop:FriendlyName="towar_EAN" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="SL_Czas_W_2024" msprop:design-time-name="165b3041-af3b-4215-8d7f-2a5cf7ce2f43" msprop:IsLogical="True" msprop:FriendlyName="SL_Czas_W_2024" msprop:DbTableName="SL_Czas_W_2024" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        czas_ID, czas_Data, czas_DzienTygodnia, czas_DzienRoboczy, czas_Weekend, czas_miesiac, czas_Rok, czas_MiesiacSort, czas_DzienTygodniaSort&#xD;&#xA;FROM            TB_Czas_T&#xD;&#xA;WHERE        (czas_ID BETWEEN 20240101 AND 20241231)" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="czas_ID" msprop:design-time-name="c13e9d39-b169-4b3b-a646-14676bb73340" msprop:DbColumnName="czas_ID" msprop:FriendlyName="czas_ID" type="xs:int" />
+                  <xs:element name="czas_Data" msprop:design-time-name="a6e16fd7-0f8e-4dd6-80ef-ce419eded4cb" msprop:DbColumnName="czas_Data" msprop:FriendlyName="czas_Data" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="19" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienTygodnia" msprop:design-time-name="4e7dff40-b74b-4b3a-b292-a3d16f6f8c76" msprop:DbColumnName="czas_DzienTygodnia" msprop:FriendlyName="czas_DzienTygodnia" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienRoboczy" msprop:design-time-name="0a265392-31ca-46f2-bc13-81ca7ba4bb5d" msprop:DbColumnName="czas_DzienRoboczy" msprop:FriendlyName="czas_DzienRoboczy" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_Weekend" msprop:design-time-name="ab77b173-39fd-4251-9fb0-772e7228e06b" msprop:DbColumnName="czas_Weekend" msprop:FriendlyName="czas_Weekend" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_miesiac" msprop:design-time-name="dc1c9c4c-cd7e-4f01-83e4-ea83c2d53de8" msprop:DbColumnName="czas_miesiac" msprop:FriendlyName="czas_miesiac" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="16" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_Rok" msprop:design-time-name="e8f2357f-a6e2-4c89-9082-cf21d524f4ee" msprop:DbColumnName="czas_Rok" msprop:FriendlyName="czas_Rok" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_MiesiacSort" msprop:design-time-name="32bb6bf2-0609-43df-9d6b-7213fac8fd40" msprop:DbColumnName="czas_MiesiacSort" msprop:FriendlyName="czas_MiesiacSort" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_DzienTygodniaSort" msprop:design-time-name="6714970b-4aaf-4fdf-a311-bbcad6ce0e0b" msprop:DbColumnName="czas_DzienTygodniaSort" msprop:FriendlyName="czas_DzienTygodniaSort" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="SL_Czas_W_2025" msprop:design-time-name="80cf55ae-71a3-41a4-a41f-1d3a8f1206a9" msprop:IsLogical="True" msprop:FriendlyName="SL_Czas_W_2025" msprop:DbTableName="SL_Czas_W_2025" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        czas_ID, czas_Data, czas_DzienTygodnia, czas_DzienRoboczy, czas_Weekend, czas_miesiac, czas_Rok, czas_MiesiacSort, czas_DzienTygodniaSort&#xD;&#xA;FROM            TB_Czas_T&#xD;&#xA;WHERE        (czas_ID BETWEEN 20250101 AND 20251231)" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="czas_ID" msprop:design-time-name="6638f678-a9b2-4966-8d52-7709f7d7b5e7" msprop:DbColumnName="czas_ID" msprop:FriendlyName="czas_ID" type="xs:int" />
+                  <xs:element name="czas_Data" msprop:design-time-name="0a50670a-c5ef-493c-affe-5d6646568702" msprop:DbColumnName="czas_Data" msprop:FriendlyName="czas_Data" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="19" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienTygodnia" msprop:design-time-name="deb5a382-f95f-4396-aa73-a05d5ba4e383" msprop:DbColumnName="czas_DzienTygodnia" msprop:FriendlyName="czas_DzienTygodnia" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_DzienRoboczy" msprop:design-time-name="5c6695ab-091b-4261-897e-a3ac97a123f4" msprop:DbColumnName="czas_DzienRoboczy" msprop:FriendlyName="czas_DzienRoboczy" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_Weekend" msprop:design-time-name="d94d695d-622e-4dbc-92dd-a566f9945bdc" msprop:DbColumnName="czas_Weekend" msprop:FriendlyName="czas_Weekend" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_miesiac" msprop:design-time-name="0935da2f-72dc-4e89-b3b4-29ef6e92ccbe" msprop:DbColumnName="czas_miesiac" msprop:FriendlyName="czas_miesiac" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="16" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_Rok" msprop:design-time-name="7406b4b0-29d0-4daa-a5a6-b5a31c257371" msprop:DbColumnName="czas_Rok" msprop:FriendlyName="czas_Rok" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="czas_MiesiacSort" msprop:design-time-name="249660e6-cbfd-4ec5-9e37-1fcbae8b9eaa" msprop:DbColumnName="czas_MiesiacSort" msprop:FriendlyName="czas_MiesiacSort" type="xs:int" minOccurs="0" />
+                  <xs:element name="czas_DzienTygodniaSort" msprop:design-time-name="a15647be-f9f7-43a8-b91e-0659a3392e79" msprop:DbColumnName="czas_DzienTygodniaSort" msprop:FriendlyName="czas_DzienTygodniaSort" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TB_Sprzedaz2026_F" msprop:design-time-name="5ea0cc5b-ff59-459d-a543-5281f9545901" msprop:DbTableName="TB_Sprzedaz2026_F" msprop:FriendlyName="TB_Sprzedaz2026_F" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fakt_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="391194ae-590e-482e-b7d2-74c9480a5755" msprop:DbColumnName="fakt_ID" msprop:FriendlyName="fakt_ID" type="xs:long" />
+                  <xs:element name="towar_ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="5dcc360d-b08f-4d84-8708-8c94d23d01ab" msprop:DbColumnName="towar_ID" msprop:FriendlyName="towar_ID" type="xs:string" />
+                  <xs:element name="data_ID" msprop:design-time-name="5506ec74-dd68-4d0d-9e22-7d56d4c778c2" msprop:DbColumnName="data_ID" msprop:FriendlyName="data_ID" type="xs:int" />
+                  <xs:element name="sklep_ID" msprop:design-time-name="26548201-9957-4e29-a24f-4d7f8bab64b6" msprop:DbColumnName="sklep_ID" msprop:FriendlyName="sklep_ID" type="xs:int" />
+                  <xs:element name="ilosc" msprop:design-time-name="2a532dfa-281c-4ffd-a320-702ada8d8011" msprop:DbColumnName="ilosc" msprop:FriendlyName="ilosc" type="xs:decimal" />
+                  <xs:element name="wartosc" msprop:design-time-name="87b06f03-8a63-4b0b-9f29-d5ad65a41567" msprop:DbColumnName="wartosc" msprop:FriendlyName="wartosc" type="xs:decimal" />
+                  <xs:element name="nrParagonu" msprop:design-time-name="88564951-8bda-470c-8be7-b5e4602e039b" msprop:DbColumnName="nrParagonu" msprop:FriendlyName="nrParagonu">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="platnosc" msprop:design-time-name="412748e5-be22-4f4f-9cd0-34a23f0a625b" msprop:DbColumnName="platnosc" msprop:FriendlyName="platnosc">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="godzina_ID" msprop:design-time-name="1ba52c9e-3162-4a3c-86ba-3e1bc3aba3c8" msprop:DbColumnName="godzina_ID" msprop:FriendlyName="godzina_ID" type="xs:int" />
+                  <xs:element name="vat" msprop:design-time-name="8bf2b252-c8e3-4aaa-a7df-dd66c172b62b" msprop:DbColumnName="vat" msprop:FriendlyName="vat">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kwota_netto" msprop:design-time-name="ce44ab2a-b0f6-4639-bdb1-c0203aa259d4" msprop:DbColumnName="kwota_netto" msprop:FriendlyName="kwota_netto" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="kod_kreskowy" msprop:design-time-name="98747cb5-98dd-4e62-81d2-5b23872a7e29" msprop:DbColumnName="kod_kreskowy" msprop:FriendlyName="kod_kreskowy" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="rabat_procent" msprop:design-time-name="4e2bdfb0-b228-42e1-a2a7-7141611bd90d" msprop:DbColumnName="rabat_procent" msprop:FriendlyName="rabat_procent" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="kwota_rabatu" msprop:design-time-name="c47a1d61-3b6c-406b-ade0-2188817090ae" msprop:DbColumnName="kwota_rabatu" msprop:FriendlyName="kwota_rabatu" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Sklep2026_W" msprop:design-time-name="0532e521-ea1a-44ac-a126-f72a6e6ea625" msprop:DbTableName="SL_Sklep2026_W" msprop:FriendlyName="SL_Sklep2026_W" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="sklep_ID" msprop:design-time-name="44600363-a450-45a0-ac82-42aa379ee98a" msprop:DbColumnName="sklep_ID" msprop:FriendlyName="sklep_ID" type="xs:int" />
+                  <xs:element name="sklep_Miasto" msprop:design-time-name="b1080840-6a91-4f4e-abfb-b73661701c9f" msprop:DbColumnName="sklep_Miasto" msprop:FriendlyName="sklep_Miasto">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sklep_Numer" msprop:design-time-name="0c9b7d40-e800-4058-a1df-096dbe8d2894" msprop:DbColumnName="sklep_Numer" msprop:FriendlyName="sklep_Numer">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sklep_KR" msprop:design-time-name="041ef300-b4d8-4888-ae52-315206bb8c9a" msprop:DbColumnName="sklep_KR" msprop:FriendlyName="sklep_KR" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="70" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SL_Towar_W_2026" msprop:design-time-name="b60311b6-df92-46fa-a3fd-fbadbbebb884" msprop:DbTableName="SL_Towar_W_2026" msprop:FriendlyName="SL_Towar_W_2026" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_towaru_centr" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="d9bb99dd-1974-40cc-9d66-9867367067be" msprop:DbColumnName="ID_towaru_centr" msprop:FriendlyName="ID_towaru_centr" type="xs:string" />
+                  <xs:element name="towar_symbol" msprop:design-time-name="1e8ebbb9-23a2-4888-8307-5b6350638aaa" msprop:DbColumnName="towar_symbol" msprop:FriendlyName="towar_symbol">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_nazwa" msprop:design-time-name="c3d2102d-f195-45f3-b7b4-9c000323ae56" msprop:DbColumnName="towar_nazwa" msprop:FriendlyName="towar_nazwa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="96" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_producent" msprop:design-time-name="9581f50c-7c90-4814-b572-ee961315ccf4" msprop:DbColumnName="towar_producent" msprop:FriendlyName="towar_producent">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="70" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_typ" msprop:design-time-name="6f68058f-132b-4c20-8eac-74a85f3f19a8" msprop:DbColumnName="towar_typ" msprop:FriendlyName="towar_typ">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_grupa_m" msprop:design-time-name="1ea82610-2ca8-4093-95e8-a46497362c47" msprop:DbColumnName="towar_grupa_m" msprop:FriendlyName="towar_grupa_m">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="towar_EAN" msprop:design-time-name="9b89c91b-58e2-4adb-b3f5-19f408e99f87" msprop:DbColumnName="towar_EAN" msprop:FriendlyName="towar_EAN" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_TB_Sprzedaz2019_F" />
+          <xs:field xpath="fakt_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Sklep_W_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Sklep_W" />
+          <xs:field xpath="sklep_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Czas_W_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Czas_W" />
+          <xs:field xpath="czas_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Godzina_W_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Godzina_W" />
+          <xs:field xpath="godzina_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Towar_W_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Towar_W" />
+          <xs:field xpath="ID_towaru_centr" />
+        </xs:unique>
+        <xs:unique name="dbo_TB_Sprzedaz2020_F_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_TB_Sprzedaz2020_F" />
+          <xs:field xpath="fakt_ID" />
+        </xs:unique>
+        <xs:unique name="SL_Czas_W_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//SL_Czas_W" />
+          <xs:field xpath="czas_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_TB_Sprzedaz2021_F_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_TB_Sprzedaz2021_F" />
+          <xs:field xpath="fakt_ID" />
+        </xs:unique>
+        <xs:unique name="SL_Czas_W_2020_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//SL_Czas_W_2020" />
+          <xs:field xpath="czas_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_TB_Sprzedaz2022_F_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_TB_Sprzedaz2022_F" />
+          <xs:field xpath="fakt_ID" />
+        </xs:unique>
+        <xs:unique name="SL_Czas_W_2021_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//SL_Czas_W_2021" />
+          <xs:field xpath="czas_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Towar_W_2020_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Towar_W_2020" />
+          <xs:field xpath="ID_towaru_centr" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Towar_W_2019_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Towar_W_2019" />
+          <xs:field xpath="ID_towaru_centr" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Towar_W_2021_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Towar_W_2021" />
+          <xs:field xpath="ID_towaru_centr" />
+        </xs:unique>
+        <xs:unique name="SL_Czas_W_2022_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//SL_Czas_W_2022" />
+          <xs:field xpath="czas_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_TB_Sprzedaz2023_F_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_TB_Sprzedaz2023_F" />
+          <xs:field xpath="fakt_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Towar_W_2023_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Towar_W_2023" />
+          <xs:field xpath="ID_towaru_centr" />
+        </xs:unique>
+        <xs:unique name="SL_Czas_W_2023_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//SL_Czas_W_2023" />
+          <xs:field xpath="czas_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_TB_Sprzedaz2024_F_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_TB_Sprzedaz2024_F" />
+          <xs:field xpath="fakt_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Towar_W_2024_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Towar_W_2024" />
+          <xs:field xpath="ID_towaru_centr" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Sklep2024_W_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Sklep2024_W" />
+          <xs:field xpath="sklep_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_TB_Sprzedaz2025_F_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_TB_Sprzedaz2025_F" />
+          <xs:field xpath="fakt_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Sklep2025_W_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Sklep2025_W" />
+          <xs:field xpath="sklep_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Towar_W_2025_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Towar_W_2025" />
+          <xs:field xpath="ID_towaru_centr" />
+        </xs:unique>
+        <xs:unique name="SL_Czas_W_2024_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//SL_Czas_W_2024" />
+          <xs:field xpath="czas_ID" />
+        </xs:unique>
+        <xs:unique name="SL_Czas_W_2025_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//SL_Czas_W_2025" />
+          <xs:field xpath="czas_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_TB_Sprzedaz2026_F_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_TB_Sprzedaz2026_F" />
+          <xs:field xpath="fakt_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Sklep2026_W_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Sklep2026_W" />
+          <xs:field xpath="sklep_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_SL_Towar_W_2026_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SL_Towar_W_2026" />
+          <xs:field xpath="ID_towaru_centr" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="TB_Sprzedaz2019_F-SL_Sklep_W" msdata:parent="dbo_SL_Sklep_W" msdata:child="dbo_TB_Sprzedaz2019_F" msdata:parentkey="sklep_ID" msdata:childkey="sklep_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2019_F-SL_Godzina_W" msdata:parent="dbo_SL_Godzina_W" msdata:child="dbo_TB_Sprzedaz2019_F" msdata:parentkey="godzina_ID" msdata:childkey="godzina_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2020_F-SL_Godzina_W" msdata:parent="dbo_SL_Godzina_W" msdata:child="dbo_TB_Sprzedaz2020_F" msdata:parentkey="godzina_ID" msdata:childkey="godzina_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2019_F-SL_Czas_W_2019" msdata:parent="SL_Czas_W" msdata:child="dbo_TB_Sprzedaz2019_F" msdata:parentkey="czas_ID" msdata:childkey="data_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2020_F-SL_Sklep_W" msdata:parent="dbo_SL_Sklep_W" msdata:child="dbo_TB_Sprzedaz2020_F" msdata:parentkey="sklep_ID" msdata:childkey="sklep_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2020_F-SL_Czas_W_2020" msdata:parent="SL_Czas_W_2020" msdata:child="dbo_TB_Sprzedaz2020_F" msdata:parentkey="czas_ID" msdata:childkey="data_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2021_F-SL_Sklep_W" msdata:parent="dbo_SL_Sklep_W" msdata:child="dbo_TB_Sprzedaz2021_F" msdata:parentkey="sklep_ID" msdata:childkey="sklep_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2021_F-SL_Godzina_W" msdata:parent="dbo_SL_Godzina_W" msdata:child="dbo_TB_Sprzedaz2021_F" msdata:parentkey="godzina_ID" msdata:childkey="godzina_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2022_F-SL_Towar_W" msdata:parent="dbo_SL_Towar_W" msdata:child="dbo_TB_Sprzedaz2022_F" msdata:parentkey="ID_towaru_centr" msdata:childkey="towar_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2022_F-SL_Godzina_W" msdata:parent="dbo_SL_Godzina_W" msdata:child="dbo_TB_Sprzedaz2022_F" msdata:parentkey="godzina_ID" msdata:childkey="godzina_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2022_F-SL_Sklep_W" msdata:parent="dbo_SL_Sklep_W" msdata:child="dbo_TB_Sprzedaz2022_F" msdata:parentkey="sklep_ID" msdata:childkey="sklep_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2021_F-SL_Czas_W_2021" msdata:parent="SL_Czas_W_2021" msdata:child="dbo_TB_Sprzedaz2021_F" msdata:parentkey="czas_ID" msdata:childkey="data_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2020_F-SL_Towar_W_2020" msdata:parent="dbo_SL_Towar_W_2020" msdata:child="dbo_TB_Sprzedaz2020_F" msdata:parentkey="ID_towaru_centr" msdata:childkey="towar_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2019_F-SL_Towar_W_2019" msdata:parent="dbo_SL_Towar_W_2019" msdata:child="dbo_TB_Sprzedaz2019_F" msdata:parentkey="ID_towaru_centr" msdata:childkey="towar_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2021_F-SL_Towar_W_2021" msdata:parent="dbo_SL_Towar_W_2021" msdata:child="dbo_TB_Sprzedaz2021_F" msdata:parentkey="ID_towaru_centr" msdata:childkey="towar_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2022_F-SL_Czas_W_2022" msdata:parent="SL_Czas_W_2022" msdata:child="dbo_TB_Sprzedaz2022_F" msdata:parentkey="czas_ID" msdata:childkey="data_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2023_F-SL_Godzina_W" msdata:parent="dbo_SL_Godzina_W" msdata:child="dbo_TB_Sprzedaz2023_F" msdata:parentkey="godzina_ID" msdata:childkey="godzina_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2023_F-SL_Towar_W_2023" msdata:parent="dbo_SL_Towar_W_2023" msdata:child="dbo_TB_Sprzedaz2023_F" msdata:parentkey="ID_towaru_centr" msdata:childkey="towar_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2023_F-SL_Sklep_W" msdata:parent="dbo_SL_Sklep_W" msdata:child="dbo_TB_Sprzedaz2023_F" msdata:parentkey="sklep_ID" msdata:childkey="sklep_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2023_F-SL_Czas_W_2023" msdata:parent="SL_Czas_W_2023" msdata:child="dbo_TB_Sprzedaz2023_F" msdata:parentkey="czas_ID" msdata:childkey="data_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2024_F-SL_Godzina_W" msdata:parent="dbo_SL_Godzina_W" msdata:child="dbo_TB_Sprzedaz2024_F" msdata:parentkey="godzina_ID" msdata:childkey="godzina_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2024_F-SL_Towar_W_2024" msdata:parent="dbo_SL_Towar_W_2024" msdata:child="dbo_TB_Sprzedaz2024_F" msdata:parentkey="ID_towaru_centr" msdata:childkey="towar_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2024_F-SL_Sklep2024_W" msdata:parent="dbo_SL_Sklep2024_W" msdata:child="dbo_TB_Sprzedaz2024_F" msdata:parentkey="sklep_ID" msdata:childkey="sklep_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2025_F-SL_Godzina_W" msdata:parent="dbo_SL_Godzina_W" msdata:child="dbo_TB_Sprzedaz2025_F" msdata:parentkey="godzina_ID" msdata:childkey="godzina_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2025_F-SL_Sklep2025_W" msdata:parent="dbo_SL_Sklep2025_W" msdata:child="dbo_TB_Sprzedaz2025_F" msdata:parentkey="sklep_ID" msdata:childkey="sklep_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2025_F-SL_Towar_W_2025" msdata:parent="dbo_SL_Towar_W_2025" msdata:child="dbo_TB_Sprzedaz2025_F" msdata:parentkey="ID_towaru_centr" msdata:childkey="towar_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2024_F-SL_Czas_W_2024" msdata:parent="SL_Czas_W_2024" msdata:child="dbo_TB_Sprzedaz2024_F" msdata:parentkey="czas_ID" msdata:childkey="data_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2025_F-SL_Czas_W_2025" msdata:parent="SL_Czas_W_2025" msdata:child="dbo_TB_Sprzedaz2025_F" msdata:parentkey="czas_ID" msdata:childkey="data_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2026_F-SL_Czas_W" msdata:parent="dbo_SL_Czas_W" msdata:child="dbo_TB_Sprzedaz2026_F" msdata:parentkey="czas_ID" msdata:childkey="data_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2026_F-SL_Godzina_W" msdata:parent="dbo_SL_Godzina_W" msdata:child="dbo_TB_Sprzedaz2026_F" msdata:parentkey="godzina_ID" msdata:childkey="godzina_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2026_F-SL_Sklep2026_W" msdata:parent="dbo_SL_Sklep2026_W" msdata:child="dbo_TB_Sprzedaz2026_F" msdata:parentkey="sklep_ID" msdata:childkey="sklep_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="TB_Sprzedaz2026_F-SL_Towar_W_2026" msdata:parent="dbo_SL_Towar_W_2026" msdata:child="dbo_TB_Sprzedaz2026_F" msdata:parentkey="ID_towaru_centr" msdata:childkey="towar_ID" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Sprzedaz xmlns="" />
+  </Schema>
+</DataSourceView>

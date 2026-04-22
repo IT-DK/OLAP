@@ -1,0 +1,705 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="89797747-11c7-43a1-98a7-fde204915d1b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Sprzedaz2022</ID>
+  <Name>Sprzedaz2022</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9873" scrolltop="769" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="26120" y="11240" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Czas_W" left="5003" top="10555" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="4424" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000481100000a100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SL_Czas_W" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Sklep_W" left="5855" top="1440" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SL_Sklep_W" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TB_Sprzedaz2022_F" left="5743" top="4707" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TB_Sprzedaz2022_F" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Towar_W" left="20" top="5693" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3323" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fb0c0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SL_Towar_W" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Godzina_W" left="11143" top="5513" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="4974" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00006e1300003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SL_Godzina_W" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5716" top="9407" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="1648" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2022_F-SL_Czas_W]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="2" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6115" y="10555" />
+              <point x="6115" y="10131" />
+              <point x="6143" y="10131" />
+              <point x="6143" y="9707" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5843" top="3248" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="812" height="1759" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2022_F-SL_Sklep_W]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6255" y="3747" />
+              <point x="6255" y="4241" />
+              <point x="6143" y="4241" />
+              <point x="6143" y="4707" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3043" top="6807" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2022_F-SL_Towar_W]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="15" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3343" y="7206" />
+              <point x="4543" y="7206" />
+              <point x="4543" y="7207" />
+              <point x="5743" y="7207" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8443" top="6807" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2022_F-SL_Godzina_W]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="22" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11143" y="7206" />
+              <point x="9943" y="7206" />
+              <point x="9943" y="7207" />
+              <point x="8743" y="7207" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-9873</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>769</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>1440</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="569866f4-954a-4d91-8d67-c96ae7038bc3">
+      <ID>SL Godzina W</ID>
+      <Name>Godzina</Name>
+      <DimensionID>SL Godzina W</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ab6c7a19-0f0a-4f83-a2cc-4fef7bd336dd">
+          <AttributeID>Godzina ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e6fb868b-246e-4f57-b188-f846a49f7173">
+          <AttributeID>Godzina Nazwa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d47b42bd-b830-4cca-97b2-0b92f7297a1e">
+          <AttributeID>Godzina Nazwa Pory Dnia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="327b1215-bd60-4184-b697-b5025bfaf192">
+          <AttributeID>Godzina Nazwa Pory Dnia Sort</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9877c860-f440-4637-9398-20e5580255e3">
+          <AttributeID>Godzina Nazwa Sort</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d4d2de8e-3168-4619-b399-d38c8579536e">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="31900fbe-4550-4609-96fb-c0f44ef47a2a">
+      <ID>Sklepy</ID>
+      <Name>Sklepy</Name>
+      <DimensionID>SL Sklep W</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="30529050-9074-47ad-a54f-020580f37ed1">
+          <AttributeID>Sklep ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eb42f34c-2fc7-4e85-8ecb-a55fb72b4a09">
+          <AttributeID>Sklep Miasto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8f19007e-39f3-4e74-ad35-d6292502598b">
+          <AttributeID>Sklep Numer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7a4ab024-ca2d-42f9-9ac9-4ad713f74044">
+          <AttributeID>Sklep KR</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="bfa8c94a-ea93-436e-b0d3-a79bd9beabbd">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="ba2e9830-39c7-4de8-b7a3-00969ef69115">
+      <ID>SL Czas2022 W</ID>
+      <Name>Czas</Name>
+      <DimensionID>SL Czas2022 W</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c9693819-1456-49e8-bc7e-2d8ecd2a7a17">
+          <AttributeID>Czas ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ee4aebc3-dd72-4f08-9e7d-6881cf7cdb84">
+          <AttributeID>Czas Data</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ed26f0b-8dc6-4ebe-84e5-6c8d12375950">
+          <AttributeID>Czas Miesiac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="586c5c6d-ca4e-4d99-ada8-65257304174b">
+          <AttributeID>Czas Miesiac Sort</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b045267-d8d2-494f-b3e7-cb4b104c3d29">
+          <AttributeID>Czas Rok</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="235f0d43-4c53-46e6-ab93-4a368dd73d69">
+          <AttributeID>Czas Dzien Tygodnia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8a6c69d5-8660-4fc2-a5bd-a6ff8b6ae1fa">
+          <AttributeID>Czas Dzien Tygodnia Sort</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="9b2bd5a2-cf3b-4eef-87da-a90bc1767df9">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="0c555ef9-12c0-4972-9d2f-f5d91f7feb47">
+      <ID>VAT</ID>
+      <Name>VAT</Name>
+      <DimensionID>VAT</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e41ba0fd-162e-457e-9225-54a5bfce271f">
+          <AttributeID>Vat</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="34305998-420c-4bf5-b34b-05aa879c7a48">
+      <ID>SL Towar2022 W</ID>
+      <Name>Towar</Name>
+      <DimensionID>SL Towar2022 W</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="17407226-b760-40d1-89b7-6f9621743377">
+          <AttributeID>ID Towaru Centr</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dd735da5-5218-4a09-b7a7-c7fc9e811f51">
+          <AttributeID>Towar Symbol</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e5e27973-e876-4f28-b284-23c81c7011fe">
+          <AttributeID>Towar Nazwa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5a99d7b1-4495-4205-9a68-9e9c0a6ffe6f">
+          <AttributeID>Towar Typ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f5e3cf3d-7e8d-4cbd-a961-5e29c4fd8257">
+          <AttributeID>Towar Producent</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b2b24b5c-347d-4f1c-be76-58d636636965">
+          <AttributeID>Towar Grupa M</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8eb911b8-c1e7-444a-ae6e-d1ec4329ed89">
+          <AttributeID>Towar EAN</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="150a9e7e-d869-4128-85f2-66f2d4ceb07f">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="4cb61906-9189-4872-8ace-94f02cddf82d">
+      <ID>NrParagonu</ID>
+      <Name>NrParagonu</Name>
+      <DimensionID>NrParagonu</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="15f019b8-d4ca-4bcf-a4ec-41314e5a69ab">
+          <AttributeID>Nr Paragonu</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="68f3b586-739c-47ce-aa9d-9b89439f63dc">
+      <ID>Platnosc22</ID>
+      <Name>Płatność</Name>
+      <DimensionID>Platnosc22</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="049a98f3-d0fe-4561-a82d-2d19748ef7c8">
+          <AttributeID>Platnosc</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="addead30-05dc-4646-b3fa-8af4357da69d">
+      <ID>TB Sprzedaz2022 F</ID>
+      <Name>Sprzedaż</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="c62347de-fb7a-4e31-ab43-883176571605">
+          <ID>Ilosc</ID>
+          <Name>Ilość sprzedaży</Name>
+          <Source dwd:design-time-name="1625ec79-701d-42cb-a4c9-30c51443d0e2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fc2483a3-3aee-4171-816b-3659741709b8">
+              <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+              <ColumnID>ilosc</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ef66c9e1-7afe-48d4-b34b-f564ea9d37bc">
+          <ID>Wartosc</ID>
+          <Name>Sprzedaż brutto</Name>
+          <Source dwd:design-time-name="6449bee1-8410-411f-80ea-aaf3b5b582cc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="08f9cc8b-7f73-4f65-b955-d1bca8ab1834">
+              <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+              <ColumnID>wartosc</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2a5be763-d5cd-4460-a1a3-10f6ecefcadc">
+          <ID>Kwota Netto</ID>
+          <Name>Sprzedaż netto</Name>
+          <Source dwd:design-time-name="4aabdfac-6e98-4d04-ba7e-09e258952ee0">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f6f758e4-7500-46b4-b2f4-6a86bf09251e">
+              <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+              <ColumnID>kwota_netto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6598b200-7123-43ed-ac68-1f9d1258f1be">
+          <ID>Rabat Procent</ID>
+          <Name>Rabat Procent</Name>
+          <Source dwd:design-time-name="0066cc65-d673-45b5-9160-d3139cd9b6f2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9275e9d8-030d-4014-a945-4f16a3eec985">
+              <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+              <ColumnID>rabat_procent</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c5ea217f-526c-4041-872e-1c232ee6c25c">
+          <ID>Kwota Rabatu</ID>
+          <Name>Kwota Rabatu</Name>
+          <Source dwd:design-time-name="33972638-5f5a-4f52-b975-a87175d45ecd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7d7d6fc6-051d-4f83-97e2-3510dedb1276">
+              <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+              <ColumnID>kwota_rabatu</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5d0d0270-ed2b-4b13-9902-b31df6415b85">
+          <CubeDimensionID>SL Godzina W</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0ac42c27-2b83-4b59-898a-79736c39f33d">
+              <AttributeID>Godzina ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5392d804-07a9-4951-b119-60170258b60c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="63985e65-6e04-47e2-9140-18179db0f0ad">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>godzina_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="721907c8-cf49-4467-9950-82ad943a1aa0">
+          <CubeDimensionID>Sklepy</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="64c3958e-b29e-42b0-af13-ee42a40fe127">
+              <AttributeID>Sklep ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="93d0f25c-8d69-4a26-b599-709ba3dc78eb">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fcfd2cf8-335c-4503-9b33-969ba80bb28d">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>sklep_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e5e73e1e-b8b4-4013-b879-32295ec62867">
+          <CubeDimensionID>SL Czas2022 W</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="612f562d-1504-44db-89c4-58086cfad728">
+              <AttributeID>Czas ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b875b0c3-201f-455a-8c40-a4388b642ae2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f005e314-2c20-4a8a-ab0f-f162944b848e">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>data_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="966691d8-9302-4e4d-906b-11aebee0980b">
+          <CubeDimensionID>VAT</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b7d3230b-5028-4998-aa71-dfd5dc2cca5e">
+              <AttributeID>Vat</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="df100883-b954-42e4-9744-cec90535f686">
+                  <DataType>WChar</DataType>
+                  <DataSize>4</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f76da145-5c5c-46db-9550-b1af50bd6bdb">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>vat</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9681628c-103f-4361-9972-59466398f258">
+          <CubeDimensionID>SL Towar2022 W</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="863cfab9-f665-429c-ab2e-f02061869607">
+              <AttributeID>ID Towaru Centr</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bbf75f97-58be-4ceb-a2bc-f63a09cbba1b">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2fa1b872-370c-4fb7-a857-76ac2d6765ad">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>towar_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="475af991-2b64-4c47-a54e-2be5237ecb09">
+          <CubeDimensionID>NrParagonu</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7554ac39-56c4-499e-96c1-f44132e17536">
+              <AttributeID>Nr Paragonu</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3f4aed5b-d911-420c-b326-cb66b60d5ec7">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8eaa63c0-6a58-49e6-b08b-0311f0e9e48d">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>nrParagonu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="aefc7984-10ca-43ac-81b3-e67fea408dac">
+          <CubeDimensionID>Platnosc22</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ec158e1e-bffb-4445-8090-a6629ab53b00">
+              <AttributeID>Platnosc</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7944b5d7-660d-4cd3-a21e-94d76acaffe4">
+                  <DataType>WChar</DataType>
+                  <DataSize>30</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f9d147dd-e853-4fbf-9e68-5b975b6daf15">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>platnosc</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="da446e88-c372-44bb-8c4b-a0b6f9cca2e7">
+      <ID>TB Sprzedaz2022 F 1</ID>
+      <Name>Sprzedaż-klienci</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="94dc96df-537a-4e29-9a72-72bbc6097aa0">
+          <ID>Nr Paragonu Distinct Count</ID>
+          <Name>Ilość klientów</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="22089d50-c777-424e-83fb-308b91ba5f36">
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e80de6c7-ba9c-428f-b5f7-7337acd911c4">
+              <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+              <ColumnID>nrParagonu</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="762e00fc-4587-49ce-bb2d-58c52d6f1e09">
+          <CubeDimensionID>SL Godzina W</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d9f455f6-1750-44e4-8c5a-a342154636b7">
+              <AttributeID>Godzina ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cd700a3c-80c1-4100-8ac9-9aefe6b0764a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ed52b288-a602-4dda-9341-e8ad22023d7f">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>godzina_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5ea8d5cf-acc1-4561-8cab-7c9b299f5a19">
+          <CubeDimensionID>Sklepy</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="48e4ebcb-7c53-4694-87d0-f712711d3371">
+              <AttributeID>Sklep ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8a8c8c4e-5dbf-448f-97b9-d8857697f95a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b6dad3bf-eb11-4c5f-a367-3acc4c72061e">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>sklep_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f1cd185c-ddf1-4a88-826f-13fb63bd5d39">
+          <CubeDimensionID>SL Czas2022 W</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bf27f2fd-41a7-4257-85a6-1d666221a554">
+              <AttributeID>Czas ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f9bd6f00-96cb-46ed-814d-2ad6c08da67c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="92b9e060-4d4a-4118-a5f3-5d3d25e479df">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>data_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b9dc3186-d80a-446e-822c-57bb6f6a4712">
+          <CubeDimensionID>VAT</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f1bcb6f4-676f-422b-af83-5deafe642f19">
+              <AttributeID>Vat</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fef2514c-e12f-4530-adba-f1392129cea7">
+                  <DataType>WChar</DataType>
+                  <DataSize>4</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f8fd1279-e8cc-4e11-a97d-929281e4d60b">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>vat</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6bff173e-523e-4a2a-83ee-51ffc72fc778">
+          <CubeDimensionID>SL Towar2022 W</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a7401cf3-c845-45b0-8082-39dd70ad22fe">
+              <AttributeID>ID Towaru Centr</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="468b71cf-916f-489c-acdb-ad2c18265d41">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d4a3d55a-d309-4826-a2d2-59d9b7c963d1">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>towar_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="58fd94f7-5da9-4926-9f34-f53f74aec38c">
+          <CubeDimensionID>NrParagonu</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5d93d8c9-b847-45a3-8565-8dc01872d632">
+              <AttributeID>Nr Paragonu</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="63213adb-6712-45a4-90f6-06691eafcd61">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ab3ce08d-e01b-48cc-83c5-35a320ec9451">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>nrParagonu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="db34cea2-7874-4d75-9db5-de4364a4848a">
+          <CubeDimensionID>Platnosc22</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="951d5441-a884-4617-b8b7-85f08b72b446">
+              <AttributeID>Platnosc</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7983af0e-5f5d-4b82-933f-f9be96c2483f">
+                  <DataType>WChar</DataType>
+                  <DataSize>30</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cc63535e-5115-43b0-806d-25569a8a7f9e">
+                    <TableID>dbo_TB_Sprzedaz2022_F</TableID>
+                    <ColumnID>platnosc</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="5982e343-4aee-4408-9660-84c5b7f998ed">
+    <DataSourceViewID>Sprzedaz</DataSourceViewID>
+  </Source>
+</Cube>

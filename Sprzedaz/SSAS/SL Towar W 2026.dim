@@ -1,0 +1,271 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4021599d-4258-4ddd-b232-5395ad5f3590" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SL Towar W 2026</ID>
+  <Name>SL Towar W 2026</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4610" scrolltop="-6417" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12594" y="16828" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Towar_W_2026" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3334" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000060d00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SL_Towar_W_2026" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4610</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6417</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="147">
+            <Shape Id="ID Towaru Centr" Expanded="true">
+              <Attributes>
+                <Attribute Id="ID Towaru Centr" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Towar Symbol" Expanded="true">
+              <Attributes>
+                <Attribute Id="Towar Symbol" />
+                <Attribute Id="Towar EAN" />
+                <Attribute Id="Towar Nazwa" />
+                <Attribute Id="Towar Grupa M" />
+                <Attribute Id="Towar Producent" />
+                <Attribute Id="Towar Typ" />
+              </Attributes>
+              <Position x="208" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7675362e-d1fc-4082-a19f-e9ba1e7f4dc3">
+    <DataSourceViewID>Sprzedaz</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="b237969e-b057-4aa2-b937-ccfc8a9ddfce">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="5ff63cfa-6b09-47cc-ba98-f96af05b29be">
+      <ID>ID Towaru Centr</ID>
+      <Name>ID Towaru Centr</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5ab7b07f-703e-4900-9158-c94fa8784782">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="14527d12-1e77-4b81-b0e4-982191dd7cf8">
+            <TableID>dbo_SL_Towar_W_2026</TableID>
+            <ColumnID>ID_towaru_centr</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8d8c9b9d-80f6-4e66-b01d-1eda0d422844">
+          <AttributeID>Towar Symbol</AttributeID>
+          <Name>Kod towaru</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e1f2ff2e-37f3-42b2-9c6f-c0bae07607a8">
+      <ID>Towar Symbol</ID>
+      <Name>Kod towaru</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8496d64d-af1a-4a3b-86c9-76ade7ff4741">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="42c8aa45-a5cb-4e09-b258-6a7b0381658a">
+            <TableID>dbo_SL_Towar_W_2026</TableID>
+            <ColumnID>towar_symbol</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="41459227-af27-443d-990b-75baadf49266">
+          <AttributeID>Towar EAN</AttributeID>
+          <Name>EAN główny</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="66559e95-0d33-441b-a898-db78a499f858">
+          <AttributeID>Towar Nazwa</AttributeID>
+          <Name>Nazwa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="87aa1e21-bbea-4b32-8493-78aa20350368">
+          <AttributeID>Towar Grupa M</AttributeID>
+          <Name>NM WM</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9c90514d-0981-4e45-97d9-4b95881048ad">
+          <AttributeID>Towar Producent</AttributeID>
+          <Name>Producent</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c349d5c6-cb19-44f7-88cd-650582be1369">
+          <AttributeID>Towar Typ</AttributeID>
+          <Name>Typ towaru</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="de604ea4-600f-4975-883f-ea9958162620">
+      <ID>Towar Nazwa</ID>
+      <Name>Nazwa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="21a98768-ed83-4a9a-bef0-f5f70b60f9ae">
+          <DataType>WChar</DataType>
+          <DataSize>96</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6481236d-36db-4c4b-a4d4-0a71478ce812">
+            <TableID>dbo_SL_Towar_W_2026</TableID>
+            <ColumnID>towar_nazwa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1d3ef607-16ea-4e64-a204-4e0e217053c5">
+      <ID>Towar Producent</ID>
+      <Name>Producent</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="96d6325a-830c-4371-85ad-90a88daa3afc">
+          <DataType>WChar</DataType>
+          <DataSize>70</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="111598be-a682-4807-8352-a101e5bac427">
+            <TableID>dbo_SL_Towar_W_2026</TableID>
+            <ColumnID>towar_producent</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9b361ea9-b550-4a61-9bef-3314822f2a09">
+      <ID>Towar Typ</ID>
+      <Name>Typ towaru</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="86d2225d-8d82-4805-9b06-4aeadbf7ec79">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ad95d59e-2f63-4892-8728-bc9d4bfc320b">
+            <TableID>dbo_SL_Towar_W_2026</TableID>
+            <ColumnID>towar_typ</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c9f5f339-f597-4d62-a0c0-08b1aa4ce63f">
+      <ID>Towar Grupa M</ID>
+      <Name>NM WM</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="737272bf-6b36-4d1b-8fe3-c54290e76e1a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bace82f7-4af4-4966-8eb0-c0a2c16e5dd5">
+            <TableID>dbo_SL_Towar_W_2026</TableID>
+            <ColumnID>towar_grupa_m</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b9a47918-56d7-4e4e-92ba-45f853b952c9">
+      <ID>Towar EAN</ID>
+      <Name>EAN główny</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e640f1f4-5691-4b38-a818-9d3cbb3b76f2">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="da5bc81d-4f5a-4862-9c16-189ed3234bc8">
+            <TableID>dbo_SL_Towar_W_2026</TableID>
+            <ColumnID>towar_EAN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="75624169-485d-430f-8cb4-7b81503f7e60">
+      <ID>Hierarchy</ID>
+      <Name>Towar</Name>
+      <Levels>
+        <Level dwd:design-time-name="5bf118b7-0cd2-4e7a-8fef-706ab2e1401e">
+          <ID>Kod towaru</ID>
+          <Name>Kod towaru</Name>
+          <SourceAttributeID>Towar Symbol</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

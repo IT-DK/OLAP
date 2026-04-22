@@ -1,0 +1,541 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1bec39d5-ba6a-44f5-a011-8ccb26065295" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Sprzedaz2019</ID>
+  <Name>Sprzedaz2019</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="22" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1883" scrolltop="-1195" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="26120" y="11240" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TB_Sprzedaz2019_F" left="7874" top="4508" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3810" height="4721" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e20e000071120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TB_Sprzedaz2019_F" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Sklep_W" left="1969" top="4466" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SL_Sklep_W" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Godzina_W" left="1439" top="-1122" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="4805" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c51200003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SL_Godzina_W" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4669" top="4490" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3505" height="1028" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2019_F-SL_Sklep_W]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="11" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4969" y="4889" />
+              <point x="6993" y="4889" />
+              <point x="6993" y="5218" />
+              <point x="7874" y="5218" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5944" top="1272" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="2230" height="3696" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2019_F-SL_Godzina_W]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="27" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6244" y="1671" />
+              <point x="7474" y="1671" />
+              <point x="7474" y="4668" />
+              <point x="7874" y="4668" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Czas_W_2019" left="8963" top="-1856" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="4255" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009f1000000a100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="SL_Czas_W" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8929" top="1751" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="911" height="3057" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2019_F-SL_Czas_W_2019]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="1" sourceattachpoint="1" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9440" y="2250" />
+              <point x="9440" y="3379" />
+              <point x="9229" y="3379" />
+              <point x="9229" y="4508" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SL_Towar_W_2019" left="11829" top="3344" logicalid="20" controlid="11" masterid="0" hint1="0" hint2="0" width="3429" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000650d0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SL_Towar_W_2019" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="11129" top="3358" logicalid="21" controlid="12" masterid="0" hint1="0" hint2="0" width="1000" height="1450" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TB_Sprzedaz2019_F-SL_Towar_W_2019]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="11" destid="1" sourceattachpoint="10" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11829" y="3757" />
+              <point x="11429" y="3757" />
+              <point x="11429" y="4508" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1883</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1195</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>1439</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-1856</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="06737455-7745-4870-8abc-f869375f77f6">
+      <ID>SL Sklep W</ID>
+      <Name>SL Sklep W</Name>
+      <DimensionID>SL Sklep W</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="43e60fac-934e-4387-b216-82b5abd27a5f">
+          <AttributeID>Sklep ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2523900c-f70a-4c8b-9017-d8a9e65376ee">
+          <AttributeID>Sklep Miasto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="51a9dd54-a3ee-42c2-a537-e08023bd454f">
+          <AttributeID>Sklep Numer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="709a658c-af4b-4286-8583-147117be8d6a">
+          <AttributeID>Sklep KR</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="8719ab42-3f96-437e-8f03-d94bf3c94a2f">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="54f68498-b1cf-41a2-94dd-e593e70b0bcf">
+      <ID>SL Godzina W</ID>
+      <Name>SL Godzina W</Name>
+      <DimensionID>SL Godzina W</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7782e816-821e-4834-bebc-db03643bb42d">
+          <AttributeID>Godzina ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e4d722b-53df-486d-9185-384ccd29140b">
+          <AttributeID>Godzina Nazwa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5e9ff669-b5e8-42aa-8c83-1f3b2930986b">
+          <AttributeID>Godzina Nazwa Pory Dnia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="46f19ae9-6195-4cff-8ed0-18d0fe55b7eb">
+          <AttributeID>Godzina Nazwa Pory Dnia Sort</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a357aab-a2cd-439d-bf8b-24c15ab008dc">
+          <AttributeID>Godzina Nazwa Sort</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e4011e52-2ba8-43d6-b246-d7d74578b2de">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="53b0fe43-0740-4376-b8f1-f152d898f132">
+      <ID>SL Czas W 2019</ID>
+      <Name>SL Czas W 2019</Name>
+      <DimensionID>SL Czas W 20192</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8c2f1c06-930a-4fe0-953e-664c2d26033d">
+          <AttributeID>Czas ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f73e11cc-76f7-474c-9601-a51941ed4d53">
+          <AttributeID>Czas Data</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5452d670-ee05-4c21-a93a-36470d304688">
+          <AttributeID>Czas Dzien Tygodnia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4518f9ba-cec2-4271-99be-41f17ea0e5fc">
+          <AttributeID>Czas Miesiac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4a44b05a-baf5-4ad7-ae72-a08a46f03eb9">
+          <AttributeID>Czas Rok</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8df35e2f-deb9-4792-b3e5-715f365a651f">
+          <AttributeID>Czas Miesiac Sort</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dcab5864-1f8c-450e-aa0d-32e21bf1a6e6">
+          <AttributeID>Czas Dzien Tygodnia Sort</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e2dcf6c9-234f-466f-ab7a-288b5ea33264">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="5b175cb8-5562-4abd-92d2-6c3fb493e347">
+      <ID>SL Towar W 2019</ID>
+      <Name>SL Towar W 2019</Name>
+      <DimensionID>SL Towar W 2019</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="087f88c7-7f0f-4f95-b5a0-32afd7bbb2f9">
+          <AttributeID>ID Towaru Centr</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="252762e9-8a6d-4d2a-9f50-a9def54912f3">
+          <AttributeID>Towar Symbol ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1f719d00-910d-4954-8f9b-8d4c00aac16b">
+          <AttributeID>Towar Nazwa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80579e2c-07f5-40a1-959a-c91355ca53de">
+          <AttributeID>Towar Rodzina</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="81dce2ef-b98a-4d79-84c5-102bdad26c86">
+          <AttributeID>Towar Grupa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b7433921-aec8-449d-bcb5-2e5a84bf7f1a">
+          <AttributeID>Grupa M</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="17f3f03a-d191-4a83-8a3d-6e0a5f0b36e4">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="052ab9d9-155f-4427-a25d-0f877931b9d9">
+      <ID>TB Sprzedaz2019 F</ID>
+      <Name>Wartość i ilość sprzedaży</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="0346ff04-07c3-43fd-a356-c53ceed0f62f">
+          <ID>Ilosc</ID>
+          <Name>Ilość sprzedaży</Name>
+          <Source dwd:design-time-name="7d67e70c-4e59-4201-a63e-d2df5af1aaa2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c714f038-7ee6-4509-aad8-2d36dd0c7e77">
+              <TableID>dbo_TB_Sprzedaz2019_F</TableID>
+              <ColumnID>ilosc</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cbe9d487-6cb3-4915-a683-98f29e2e459a">
+          <ID>Wartosc</ID>
+          <Name>Sprzedaż brutto</Name>
+          <Source dwd:design-time-name="4ee1307d-5e98-4539-8225-6058c67ef9f6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="34ac2c13-cc6f-4ea0-8a1a-d2300427a974">
+              <TableID>dbo_TB_Sprzedaz2019_F</TableID>
+              <ColumnID>wartosc</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="dad76f2b-0e37-4270-b00d-7610df53cfa8">
+          <ID>Kwota Netto</ID>
+          <Name>Sprzedaż netto</Name>
+          <Source dwd:design-time-name="6368e341-be06-45f9-a937-836ba28cf5cb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2f909115-7b91-4031-b055-bfb228f66afd">
+              <TableID>dbo_TB_Sprzedaz2019_F</TableID>
+              <ColumnID>kwota_netto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1b3560dc-0b0f-444c-b04a-72391f3afd12">
+          <CubeDimensionID>SL Sklep W</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bfa36044-5db8-4373-998b-8f23d155bc17">
+              <AttributeID>Sklep ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9f839865-315d-4016-aa48-e1b0622653cc">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="142a7728-42be-4392-81e8-661fb28e0328">
+                    <TableID>dbo_TB_Sprzedaz2019_F</TableID>
+                    <ColumnID>sklep_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="92967a07-5f96-4d2b-8ff5-1073aa202de1">
+          <CubeDimensionID>SL Godzina W</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d334996b-65b3-4ac2-aee6-f698c107610a">
+              <AttributeID>Godzina ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b50bfb97-b5bd-49cd-944d-b80591dd00df">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="defbcdf5-bd78-4299-adf6-c64d57750786">
+                    <TableID>dbo_TB_Sprzedaz2019_F</TableID>
+                    <ColumnID>godzina_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e137a17a-c9e6-4cf1-ae18-78d59038d962">
+          <CubeDimensionID>SL Czas W 2019</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9d65d4cc-15a6-47cb-bbcc-4d690f4e7084">
+              <AttributeID>Czas ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9d0bc021-d432-415d-94d7-961771d62b11">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d1b6c1e3-83c3-47c0-83c6-bb523af69b4c">
+                    <TableID>dbo_TB_Sprzedaz2019_F</TableID>
+                    <ColumnID>data_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e60d68a1-f009-454e-9f29-07d9bc2926e9">
+          <CubeDimensionID>SL Towar W 2019</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f541672c-d26c-4be1-956f-a9238643fc4b">
+              <AttributeID>ID Towaru Centr</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0ea70bcc-a04e-49a3-b4ef-923aa75ab1c2">
+                  <DataType>WChar</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7343ccc8-278b-4d36-b468-4f9f315a6f3d">
+                    <TableID>dbo_TB_Sprzedaz2019_F</TableID>
+                    <ColumnID>towar_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="10de710e-6296-42a9-8b9b-8341ea1edfb4">
+      <ID>Wartość i ilość sprzedaży</ID>
+      <Name>Klienci</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="ed5ad428-e5f9-46f4-b781-0df20bbc7f3f">
+          <ID>Nr Paragonu Distinct Count</ID>
+          <Name>Ilość klientów</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="e474bf50-0e5f-42e1-8d5c-dc07c127920a">
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fcb24be4-cad9-4868-bb42-e3b5158fc966">
+              <TableID>dbo_TB_Sprzedaz2019_F</TableID>
+              <ColumnID>nrParagonu</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2153e87b-0cbf-4429-8521-5077d5181d4a">
+          <CubeDimensionID>SL Sklep W</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b1914cf3-1489-48f9-bd24-b2b46bd75af1">
+              <AttributeID>Sklep ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="14c5f4cb-b4c1-4e7b-ab89-b11db56e7f84">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8316a10f-2dc1-4501-89d5-2f4d5e0d81bb">
+                    <TableID>dbo_TB_Sprzedaz2019_F</TableID>
+                    <ColumnID>sklep_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2c115fb9-1925-47dc-a831-41c804fc1e93">
+          <CubeDimensionID>SL Godzina W</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c16d1fbd-1d5e-40a7-b5aa-05723e36abc2">
+              <AttributeID>Godzina ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a850ac1d-98a6-432b-882a-7cb233ded38b">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="54eb8e7d-7a72-419f-8791-755b0b3866ad">
+                    <TableID>dbo_TB_Sprzedaz2019_F</TableID>
+                    <ColumnID>godzina_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e517486c-3755-4fcb-9855-7f14897f0e81">
+          <CubeDimensionID>SL Czas W 2019</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="023100c1-240b-485a-bd7a-15e450fa45cd">
+              <AttributeID>Czas ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8e643759-5e92-4575-9a01-677133dc94b2">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="889e847c-c176-4bd8-a26e-fa839fa35235">
+                    <TableID>dbo_TB_Sprzedaz2019_F</TableID>
+                    <ColumnID>data_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c9fa2c28-db8f-466a-a1da-cdabab2df068">
+          <CubeDimensionID>SL Towar W 2019</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c9eedc47-90a6-4456-ac87-6437ba539809">
+              <AttributeID>ID Towaru Centr</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="95ab697f-b525-4458-a6ac-10f94c67e1e0">
+                  <DataType>WChar</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e537d848-f83b-419b-9fdc-7636433aab30">
+                    <TableID>dbo_TB_Sprzedaz2019_F</TableID>
+                    <ColumnID>towar_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="3757f412-2916-4682-ad02-b6882a4fae28">
+    <DataSourceViewID>Sprzedaz</DataSourceViewID>
+  </Source>
+</Cube>

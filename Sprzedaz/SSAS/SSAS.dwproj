@@ -1,0 +1,282 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>15.0.19623.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>SSAS.database</Name>
+    <FullPath>SSAS.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Sprzedaz2019.cube</Name>
+      <FullPath>Sprzedaz2019.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sprzedaz2019.partitions</Name>
+          <FullPath>Sprzedaz2019.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sprzedaz2020.cube</Name>
+      <FullPath>Sprzedaz2020.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sprzedaz2020.partitions</Name>
+          <FullPath>Sprzedaz2020.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sprzedaz2021.cube</Name>
+      <FullPath>Sprzedaz2021.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sprzedaz2021.partitions</Name>
+          <FullPath>Sprzedaz2021.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sprzedaz2022.cube</Name>
+      <FullPath>Sprzedaz2022.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sprzedaz2022.partitions</Name>
+          <FullPath>Sprzedaz2022.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sprzedaz2023.cube</Name>
+      <FullPath>Sprzedaz2023.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sprzedaz2023.partitions</Name>
+          <FullPath>Sprzedaz2023.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sprzedaz2024.cube</Name>
+      <FullPath>Sprzedaz2024.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sprzedaz2024.partitions</Name>
+          <FullPath>Sprzedaz2024.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sprzedaz2025.cube</Name>
+      <FullPath>Sprzedaz2025.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sprzedaz2025.partitions</Name>
+          <FullPath>Sprzedaz2025.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sprzedaz2026.cube</Name>
+      <FullPath>Sprzedaz2026.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sprzedaz2026.partitions</Name>
+          <FullPath>Sprzedaz2026.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>SL Sklep W.dim</Name>
+      <FullPath>SL Sklep W.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Godzina W.dim</Name>
+      <FullPath>SL Godzina W.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Towar W.dim</Name>
+      <FullPath>SL Towar W.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Czas W 2019.dim</Name>
+      <FullPath>SL Czas W 2019.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Platnosc2021 W.dim</Name>
+      <FullPath>SL Platnosc2021 W.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Czas2022 W.dim</Name>
+      <FullPath>SL Czas2022 W.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Czas2021 W.dim</Name>
+      <FullPath>SL Czas2021 W.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>NrParagonu.dim</Name>
+      <FullPath>NrParagonu.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>VAT.dim</Name>
+      <FullPath>VAT.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Towar2022 W.dim</Name>
+      <FullPath>SL Towar2022 W.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Platnosc22.dim</Name>
+      <FullPath>Platnosc22.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Czas W 2020.dim</Name>
+      <FullPath>SL Czas W 2020.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Towar W 2020.dim</Name>
+      <FullPath>SL Towar W 2020.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Towar W 2019.dim</Name>
+      <FullPath>SL Towar W 2019.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Towar W 2021.dim</Name>
+      <FullPath>SL Towar W 2021.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Czas2023 W.dim</Name>
+      <FullPath>SL Czas2023 W.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Towar W 2023.dim</Name>
+      <FullPath>SL Towar W 2023.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Platnosc2023.dim</Name>
+      <FullPath>Platnosc2023.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>NrParagonu2023.dim</Name>
+      <FullPath>NrParagonu2023.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>VAT2023.dim</Name>
+      <FullPath>VAT2023.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Towar W 2024.dim</Name>
+      <FullPath>SL Towar W 2024.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TB Sprzedaz2024 F.dim</Name>
+      <FullPath>TB Sprzedaz2024 F.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Platnosc2024.dim</Name>
+      <FullPath>Platnosc2024.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>VAT2024.dim</Name>
+      <FullPath>VAT2024.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>NrParagonu2024.dim</Name>
+      <FullPath>NrParagonu2024.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Sklep2024 W.dim</Name>
+      <FullPath>SL Sklep2024 W.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Sklep2025 W.dim</Name>
+      <FullPath>SL Sklep2025 W.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>NrParagonu2025.dim</Name>
+      <FullPath>NrParagonu2025.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>VAT2025.dim</Name>
+      <FullPath>VAT2025.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Platnosc2025.dim</Name>
+      <FullPath>Platnosc2025.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Czas W 2024.dim</Name>
+      <FullPath>SL Czas W 2024.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Towar W 2025.dim</Name>
+      <FullPath>SL Towar W 2025.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Czas W 2025.dim</Name>
+      <FullPath>SL Czas W 2025.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Czas W 2026.dim</Name>
+      <FullPath>SL Czas W 2026.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Sklep2026 W.dim</Name>
+      <FullPath>SL Sklep2026 W.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Platnosc2026.dim</Name>
+      <FullPath>Platnosc2026.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>VAT2026.dim</Name>
+      <FullPath>VAT2026.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>NrParagonu2026.dim</Name>
+      <FullPath>NrParagonu2026.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SL Towar W 2026.dim</Name>
+      <FullPath>SL Towar W 2026.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>Sprzedaz.ds</Name>
+      <FullPath>Sprzedaz.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Sprzedaz.dsv</Name>
+      <FullPath>Sprzedaz.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Sprzedaz</Id>
+            <Name>Sprzedaz</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=WIN-TMQRMAT9S25;Persist Security Info=True;Password=;User ID=;Initial Catalog=Sprzedaz</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Sprzedaz</Id>
+            <Name>Sprzedaz</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

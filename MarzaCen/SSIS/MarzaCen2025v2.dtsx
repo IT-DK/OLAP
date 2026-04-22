@@ -1,0 +1,2271 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/18/2019 10:47:13 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="SERVER_NAME"
+  DTS:CreatorName="DOMAIN_NAME\USER_NAME"
+  DTS:DTSID="{B4A96F37-374C-4D0E-BE35-DB0E32A2F145}"
+  DTS:EnableConfig="True"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.1301.433"
+  DTS:LocaleID="1045"
+  DTS:ObjectName="MarzaCen2025v2"
+  DTS:PackageType="5"
+  DTS:VersionBuild="91"
+  DTS:VersionGUID="{D781E163-AE9A-48A7-BCE3-9627DA4A8AF5}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Connect to targety2021 file]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{248D71C4-A41E-49A2-89EF-846F3AC4DC71}"
+      DTS:ObjectName="Connect to targety2021 file">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1045"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1250"
+          DTS:ConnectionString="C:\targety\targety2021.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSD"
+              DTS:DTSID="{D4E6FF95-3539-49A5-BAF4-02C1FB02A830}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Dzień"
+              DTS:DTSID="{E75F3390-7251-48A2-8CB0-5E61FF6848D5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Target "
+              DTS:DTSID="{C42D9948-95A6-4FFE-9286-A78CFF6C9643}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{CE01F560-9233-420A-9979-F5F37053215C}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1045"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x007B_none_x007D_"
+          DTS:CodePage="1250"
+          DTS:ConnectionString="C:\targety\targety 1903-1911.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSD"
+              DTS:DTSID="{1E723503-6945-4AFC-818F-B896FA479F10}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Dzień"
+              DTS:DTSID="{1DFD51E2-5449-438F-B7B3-83885C5A79B6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:DataType="4"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Target"
+              DTS:DTSID="{29B786DF-36E8-45A9-85A9-4D4FD2384D83}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{3C5F63E5-7A3D-4D24-9C86-0E18354D1365}"
+      DTS:ObjectName="Flat File Connection Manager 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1045"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1250"
+          DTS:ConnectionString="C:\targety\targety2020.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSD"
+              DTS:DTSID="{81D99E89-1383-4E65-8743-880B2019B38F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Dzień"
+              DTS:DTSID="{D6E42AB9-BB40-4BEB-A72B-38B50F417830}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Target "
+              DTS:DTSID="{89D168DD-57BE-4F99-AC45-EEA3BFF53CBA}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.MarzaCen]"
+      DTS:CreationName="MSOLAP100"
+      DTS:DTSID="{4D795CCA-56DC-4C49-9359-752774F27F72}"
+      DTS:ObjectName="localhost.MarzaCen">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=MarzaCen;Provider=MSOLAP.8;Impersonation Level=Impersonate;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[targety2022]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{09ECDAC2-0954-4290-A625-B8D58860C2CE}"
+      DTS:ObjectName="targety2022">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1045"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1250"
+          DTS:ConnectionString="C:\targety\targety2022.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSD"
+              DTS:DTSID="{CAC80D08-9E41-450D-B4F1-D5D8403484BE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Dzień"
+              DTS:DTSID="{DAF8AAFF-B05E-417A-9AD5-BE6C26C4B644}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Target"
+              DTS:DTSID="{41F740D6-0848-4DC7-8AFE-0865ADCE4886}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[targety2022v2]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{B8CCBFCE-EA4C-494C-9DF5-852B106A9216}"
+      DTS:ObjectName="targety2022v2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1045"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1250"
+          DTS:ConnectionString="C:\targety\Targety NM WM 2022.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSD"
+              DTS:DTSID="{E81C77F7-29A3-4104-80BD-E7122E09B939}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Dzień"
+              DTS:DTSID="{901A08B2-8E8A-45CE-A2D6-0C97EA9B7725}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Target"
+              DTS:DTSID="{0C70EA07-EFBF-41BB-A2B4-701D6818AE6D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NM WM"
+              DTS:DTSID="{BAA89C8E-C62A-4098-B06C-0A6D8A1E0839}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[targety2023v2]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{F65DAFE7-5DD5-405C-B84D-411D97C9642F}"
+      DTS:ObjectName="targety2023v2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1045"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1250"
+          DTS:ConnectionString="C:\targety\Targety NM WM 2023.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSD"
+              DTS:DTSID="{108181B9-6C0A-4208-9DD9-212181A9652F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Dzień"
+              DTS:DTSID="{E59BC263-041B-429F-9F7A-D428D05E0415}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Target"
+              DTS:DTSID="{0F6BA8BC-7789-4D89-8F48-AFB36FAC4460}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NM WM"
+              DTS:DTSID="{EE755D2E-344D-4A16-9D76-2EF4638F3595}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[targety2024v2]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{4BA35174-E7F2-4AF2-9B71-C02E791C1E27}"
+      DTS:ObjectName="targety2024v2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1045"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1250"
+          DTS:ConnectionString="C:\targety\Targety NM WM 2024.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSD"
+              DTS:DTSID="{9D0B53D9-AA2F-48E0-A668-AC35045C79EC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Dzień"
+              DTS:DTSID="{F1C114E5-A3E6-4934-B609-E21E2A6B515E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Target"
+              DTS:DTSID="{890512F0-7A68-4408-8CF9-DBBF2021F57E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NM WM"
+              DTS:DTSID="{EDC626F8-72C1-4CB0-AC37-29405FDE501B}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[targety2025v2]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{4b78880a-54e7-4dba-bd6d-766f9a136e4e}"
+      DTS:ObjectName="targety2025v2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1045"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1250"
+          DTS:ConnectionString="C:\targety\Targety NM WM 2025.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PSD"
+              DTS:DTSID="{ED555AF4-D0F1-4E30-A076-5F19DD6257D7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Dzień"
+              DTS:DTSID="{277B65C1-CAA6-42E3-9F71-A2520556F80B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Target"
+              DTS:DTSID="{82C3572E-08C0-4A25-BD30-7557A3DC7C9E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NM WM"
+              DTS:DTSID="{A99F1276-9C61-4025-BE59-0543E656693B}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SERVER_NAME.DB_NAME.USER_DB_NAME]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{BCA425E6-7B58-41DB-B17F-FE0177298FC3}"
+      DTS:ObjectName="SERVER_NAME.DB_NAME.USER_DB_NAME">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=SERVER_NAME;User ID=USER_DB_NAME;Initial Catalog=DB_NAME;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Package-{BCA425E6-7B58-41DB-B17F-FE0177298FC3}SERVER_NAME.DB_NAME.USER_DB_NAME;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzVQw+1uDlUGflGKvxUebywAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACsQS5hVVeLwxovKYQRYVsqAAAAAASAAACgAAAAEAAAAJSimxXMcWmifXxz/pvwh2koAAAAgg30xZbPjfiEMoUkdp/pSyBsXFRLA6bLObRz62om0OkWDF9gYbwqCxQAAADuE2LNIF9fUhPMKmwfFm4RH1jIxg</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SERVER_NAME.MarzaCen.USER_DB_NAME]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{C7C143EC-A6EF-4265-B7CF-51A25D7C7C8B}"
+      DTS:ObjectName="SERVER_NAME.MarzaCen.USER_DB_NAME">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=SERVER_NAME;User ID=USER_DB_NAME;Initial Catalog=MarzaCen;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Package-{C7C143EC-A6EF-4265-B7CF-51A25D7C7C8B}SERVER_NAME.MarzaCen.USER_DB_NAME;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzVQw+1uDlUGflGKvxUebywAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAD32uMa/3R5d16RgM7HefG5AAAAAASAAACgAAAAEAAAAMmEXG9JVekJ29Vy2NMSv2YoAAAACAaiwC/JJ4TZ2XIV7Wt4PcNNzuvgedeFcvhtlq822ZyPerLqHIYtrxQAAACpB48OxZjgB6p1ZBui4OMFN4GO+Q</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SERVER_NAME.Sprzedaz.USER_DB_NAME]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{8E2CCA13-DE15-423F-A032-5F6C12B5A0AE}"
+      DTS:ObjectName="SERVER_NAME.Sprzedaz.USER_DB_NAME">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=SERVER_NAME;User ID=USER_DB_NAME;Initial Catalog=Sprzedaz;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Package-{8E2CCA13-DE15-423F-A032-5F6C12B5A0AE}SERVER_NAME.Sprzedaz.USER_DB_NAME;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzVQw+1uDlUGflGKvxUebywAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAeYX9wdghbnCOc2PaTNmu3AAAAAASAAACgAAAAEAAAAIfDR/qNtA9E7XAxT47ltdMoAAAAgtA+z0aFR/x4S/g3fyJqEdo45p8KLAL4qD7+R90ckaKLPtz9eJSSOBQAAABJ5Whn7OFcVfSruxgOpcE1oNAUhQ</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Pobranie danych z bazy Sprzedaz do tabeli TB_Sprzedaz2025_T"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{AE560EEA-3349-4315-A811-186428548E30}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Pobranie danych z bazy Sprzedaz do tabeli TB_Sprzedaz2025_T"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{8E2CCA13-DE15-423F-A032-5F6C12B5A0AE}"
+          SQLTask:SqlStatementSource="/*Pobranie wymaganych wartości z bazy Sprzedaż*/&#xA;&#xA;INSERT INTO MarzaCen.dbo.TB_Sprzedaz2025_Tv2&#xA;&#xA;SELECT     &#xA;&#x9;A.data_ID,&#xA;&#x9;A.sklep_ID,&#xA;&#x9;SUM(A.wartosc) AS wartoscSprzedazyBrutto,&#xA;&#x9;SUM(A.wartosc / (1 + stawkaVat)) AS wartoscSprzedazyBruttoVAT,&#xA;&#x9;towar_grupa_m&#xA;FROM         &#xA;&#x9;TB_Sprzedaz2025_F A INNER JOIN&#xA;&#x9;SL_Towar_W_2025 B ON A.towar_ID = B.id_towaru_centr INNER JOIN&#xA;&#x9;MarzaCen.dbo.WK_StawkaVAT_T C ON A.vat = C.stawkaVat_Nazwa&#xA;&#xA;WHERE&#xA;&#xA;data_id &gt;='20250101' and data_id &lt;='20251231'&#xA;&#xA;GROUP BY&#xA;&#x9;A.data_ID,&#xA;&#x9;A.sklep_ID,&#xA;&#x9;towar_grupa_m" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{D5967666-A2D6-40F4-86C8-2FD1FD9849F6}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Pobranie targetów z aplikacji do tabeli TB_Target2025_T"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1045"
+              name="Flat File Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[targety2025v2]"
+                  connectionManagerRefId="Package.ConnectionManagers[targety2025v2]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].Columns[PSD]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PSD]"
+                      length="50"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].Columns[PSD]"
+                      name="PSD"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].Columns[Dzień]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Dzień]"
+                      length="50"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].Columns[Dzień]"
+                      name="Dzień"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].Columns[Target]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Target]"
+                      length="50"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].Columns[Target]"
+                      name="Target"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].Columns[NM WM]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[NM WM]"
+                      length="50"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].Columns[NM WM]"
+                      name="NM WM"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PSD]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="PSD" />
+                    <externalMetadataColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Dzień]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="Dzień" />
+                    <externalMetadataColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Target]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="Target" />
+                    <externalMetadataColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[NM WM]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="NM WM" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1250"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[TB_Target2025_Tv2]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1250</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[SERVER_NAME.MarzaCen.USER_DB_NAME]"
+                  connectionManagerRefId="Package.ConnectionManagers[SERVER_NAME.MarzaCen.USER_DB_NAME]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Dzień]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Dzień"
+                      externalMetadataColumnId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[czas_ID]"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].Columns[Dzień]" />
+                    <inputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PSD]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="PSD"
+                      externalMetadataColumnId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sklep_ID]"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].Columns[PSD]" />
+                    <inputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Target]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Target"
+                      externalMetadataColumnId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[wartoscSprzedazyBruttoTarget]"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].Columns[Target]" />
+                    <inputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NM WM]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NM WM"
+                      externalMetadataColumnId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[towar_grupa_m]"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output].Columns[NM WM]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[czas_ID]"
+                      dataType="i4"
+                      name="czas_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sklep_ID]"
+                      dataType="i4"
+                      name="sklep_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[wartoscSprzedazyBruttoTarget]"
+                      dataType="r8"
+                      name="wartoscSprzedazyBruttoTarget" />
+                    <externalMetadataColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[towar_grupa_m]"
+                      codePage="1250"
+                      dataType="str"
+                      length="5"
+                      name="towar_grupa_m" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T.Paths[Flat File Source Output]"
+              endId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Flat File Source Output"
+              startId="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Proces Kostki MarzaCen2025"
+      DTS:CreationName="Microsoft.DTSProcessingTask"
+      DTS:Description="Analysis Services Processing Task"
+      DTS:DTSID="{4019B050-D2EF-4594-977C-131D3A776DC8}"
+      DTS:ExecutableType="Microsoft.DTSProcessingTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Proces Kostki MarzaCen2025"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ASProcessingData
+          ConnectionName="localhost.MarzaCen"
+          ProcessingCommands="&lt;Batch xmlns=&quot;http://schemas.microsoft.com/analysisservices/2003/engine&quot;&gt;&#xA;  &lt;Process xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:ddl2=&quot;http://schemas.microsoft.com/analysisservices/2003/engine/2&quot; xmlns:ddl2_2=&quot;http://schemas.microsoft.com/analysisservices/2003/engine/2/2&quot; xmlns:ddl100_100=&quot;http://schemas.microsoft.com/analysisservices/2008/engine/100/100&quot; xmlns:ddl200=&quot;http://schemas.microsoft.com/analysisservices/2010/engine/200&quot; xmlns:ddl200_200=&quot;http://schemas.microsoft.com/analysisservices/2010/engine/200/200&quot; xmlns:ddl300=&quot;http://schemas.microsoft.com/analysisservices/2011/engine/300&quot; xmlns:ddl300_300=&quot;http://schemas.microsoft.com/analysisservices/2011/engine/300/300&quot; xmlns:ddl400=&quot;http://schemas.microsoft.com/analysisservices/2012/engine/400&quot; xmlns:ddl400_400=&quot;http://schemas.microsoft.com/analysisservices/2012/engine/400/400&quot; xmlns:ddl500=&quot;http://schemas.microsoft.com/analysisservices/2013/engine/500&quot; xmlns:ddl500_500=&quot;http://schemas.microsoft.com/analysisservices/2013/engine/500/500&quot;&gt;&#xA;    &lt;Object&gt;&#xA;      &lt;DatabaseID&gt;MarzaCen&lt;/DatabaseID&gt;&#xA;      &lt;CubeID&gt;MarzaCen2025&lt;/CubeID&gt;&#xA;      &lt;MeasureGroupID&gt;TB Marza Cen2025 Fv2&lt;/MeasureGroupID&gt;&#xA;      &lt;PartitionID&gt;TB Marza Cen2025 Fv2&lt;/PartitionID&gt;&#xA;    &lt;/Object&gt;&#xA;    &lt;Type&gt;ProcessFull&lt;/Type&gt;&#xA;    &lt;WriteBackTableCreation&gt;UseExisting&lt;/WriteBackTableCreation&gt;&#xA;  &lt;/Process&gt;&#xA;&lt;/Batch&gt;" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Proces Wymiarow Kostki MarzaCen2025"
+      DTS:CreationName="Microsoft.DTSProcessingTask"
+      DTS:Description="Analysis Services Processing Task"
+      DTS:DTSID="{7E902444-95FF-40DD-9313-53E4EC85BBEC}"
+      DTS:ExecutableType="Microsoft.DTSProcessingTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Proces Wymiarow Kostki MarzaCen2025"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ASProcessingData
+          ConnectionName="localhost.MarzaCen"
+          ProcessingCommands="&lt;Batch xmlns=&quot;http://schemas.microsoft.com/analysisservices/2003/engine&quot;&gt;&#xA;  &lt;Process xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:ddl2=&quot;http://schemas.microsoft.com/analysisservices/2003/engine/2&quot; xmlns:ddl2_2=&quot;http://schemas.microsoft.com/analysisservices/2003/engine/2/2&quot; xmlns:ddl100_100=&quot;http://schemas.microsoft.com/analysisservices/2008/engine/100/100&quot; xmlns:ddl200=&quot;http://schemas.microsoft.com/analysisservices/2010/engine/200&quot; xmlns:ddl200_200=&quot;http://schemas.microsoft.com/analysisservices/2010/engine/200/200&quot; xmlns:ddl300=&quot;http://schemas.microsoft.com/analysisservices/2011/engine/300&quot; xmlns:ddl300_300=&quot;http://schemas.microsoft.com/analysisservices/2011/engine/300/300&quot; xmlns:ddl400=&quot;http://schemas.microsoft.com/analysisservices/2012/engine/400&quot; xmlns:ddl400_400=&quot;http://schemas.microsoft.com/analysisservices/2012/engine/400/400&quot; xmlns:ddl500=&quot;http://schemas.microsoft.com/analysisservices/2013/engine/500&quot; xmlns:ddl500_500=&quot;http://schemas.microsoft.com/analysisservices/2013/engine/500/500&quot;&gt;&#xA;    &lt;Object&gt;&#xA;      &lt;DatabaseID&gt;MarzaCen&lt;/DatabaseID&gt;&#xA;      &lt;DimensionID&gt;SL Czas W 2025&lt;/DimensionID&gt;&#xA;    &lt;/Object&gt;&#xA;    &lt;Type&gt;ProcessUpdate&lt;/Type&gt;&#xA;    &lt;WriteBackTableCreation&gt;UseExisting&lt;/WriteBackTableCreation&gt;&#xA;  &lt;/Process&gt;&#xA;  &lt;Process xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:ddl2=&quot;http://schemas.microsoft.com/analysisservices/2003/engine/2&quot; xmlns:ddl2_2=&quot;http://schemas.microsoft.com/analysisservices/2003/engine/2/2&quot; xmlns:ddl100_100=&quot;http://schemas.microsoft.com/analysisservices/2008/engine/100/100&quot; xmlns:ddl200=&quot;http://schemas.microsoft.com/analysisservices/2010/engine/200&quot; xmlns:ddl200_200=&quot;http://schemas.microsoft.com/analysisservices/2010/engine/200/200&quot; xmlns:ddl300=&quot;http://schemas.microsoft.com/analysisservices/2011/engine/300&quot; xmlns:ddl300_300=&quot;http://schemas.microsoft.com/analysisservices/2011/engine/300/300&quot; xmlns:ddl400=&quot;http://schemas.microsoft.com/analysisservices/2012/engine/400&quot; xmlns:ddl400_400=&quot;http://schemas.microsoft.com/analysisservices/2012/engine/400/400&quot; xmlns:ddl500=&quot;http://schemas.microsoft.com/analysisservices/2013/engine/500&quot; xmlns:ddl500_500=&quot;http://schemas.microsoft.com/analysisservices/2013/engine/500/500&quot;&gt;&#xA;    &lt;Object&gt;&#xA;      &lt;DatabaseID&gt;MarzaCen&lt;/DatabaseID&gt;&#xA;      &lt;DimensionID&gt;SL Sklep2025 W&lt;/DimensionID&gt;&#xA;    &lt;/Object&gt;&#xA;    &lt;Type&gt;ProcessUpdate&lt;/Type&gt;&#xA;    &lt;WriteBackTableCreation&gt;UseExisting&lt;/WriteBackTableCreation&gt;&#xA;  &lt;/Process&gt;&#xA;  &lt;Process xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:ddl2=&quot;http://schemas.microsoft.com/analysisservices/2003/engine/2&quot; xmlns:ddl2_2=&quot;http://schemas.microsoft.com/analysisservices/2003/engine/2/2&quot; xmlns:ddl100_100=&quot;http://schemas.microsoft.com/analysisservices/2008/engine/100/100&quot; xmlns:ddl200=&quot;http://schemas.microsoft.com/analysisservices/2010/engine/200&quot; xmlns:ddl200_200=&quot;http://schemas.microsoft.com/analysisservices/2010/engine/200/200&quot; xmlns:ddl300=&quot;http://schemas.microsoft.com/analysisservices/2011/engine/300&quot; xmlns:ddl300_300=&quot;http://schemas.microsoft.com/analysisservices/2011/engine/300/300&quot; xmlns:ddl400=&quot;http://schemas.microsoft.com/analysisservices/2012/engine/400&quot; xmlns:ddl400_400=&quot;http://schemas.microsoft.com/analysisservices/2012/engine/400/400&quot; xmlns:ddl500=&quot;http://schemas.microsoft.com/analysisservices/2013/engine/500&quot; xmlns:ddl500_500=&quot;http://schemas.microsoft.com/analysisservices/2013/engine/500/500&quot;&gt;&#xA;    &lt;Object&gt;&#xA;      &lt;DatabaseID&gt;MarzaCen&lt;/DatabaseID&gt;&#xA;      &lt;DimensionID&gt;NM-WM-2025&lt;/DimensionID&gt;&#xA;    &lt;/Object&gt;&#xA;    &lt;Type&gt;ProcessUpdate&lt;/Type&gt;&#xA;    &lt;WriteBackTableCreation&gt;UseExisting&lt;/WriteBackTableCreation&gt;&#xA;  &lt;/Process&gt;&#xA;&lt;/Batch&gt;" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Ustalenie wartości wymaganych parametrów"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{72B5BAE2-BFF7-49BA-AFB4-358291D7FCDA}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Ustalenie wartości wymaganych parametrów"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C7C143EC-A6EF-4265-B7CF-51A25D7C7C8B}"
+          SQLTask:SqlStatementSource="/*Ustalenie wartosci wymaganych parametrów*/&#xA;&#xA;DECLARE @MiesiacMarzowy INT&#xA;SET @MiesiacMarzowy = ?&#xA;&#xA;IF(@MiesiacMarzowy = 0)&#xA;&#x9;BEGIN&#xA;&#xA;&#x9;&#x9;/*Pobranie parametru @LiczbaMiesiecyWstecz z tabeli konfiguracyjnej*/&#xA;&#x9;&#x9;DECLARE @LiczbaMiesiecyWstecz INT &#xA;&#x9;&#x9;SET @LiczbaMiesiecyWstecz = ?&#xA;&#xA;&#x9;&#x9;/*@Data nie bedzie nigdy mniejsza niz styczen biezacego roku*/&#xA;&#xA;&#x9;&#x9;DECLARE @DataOd SMALLDATETIME&#xA;&#x9;&#x9;SET @DataOd = (CASE &#xA;&#x9;&#x9;&#x9;&#x9;WHEN CONVERT(SMALLDATETIME,CONVERT(NVARCHAR(4),YEAR(GetDate()))+'-01-01') &gt; DATEADD(MONTH,-@LiczbaMiesiecyWstecz,CONVERT(SMALLDATETIME,CONVERT(NVARCHAR(10),GetDate(),121)))&#xA;&#x9;&#x9;&#x9;&#x9;THEN CONVERT(SMALLDATETIME,CONVERT(NVARCHAR(4),YEAR(GetDate()))+'-01-01')&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ELSE DATEADD(MONTH,-@LiczbaMiesiecyWstecz,CONVERT(SMALLDATETIME,CONVERT(NVARCHAR(10),GetDate(),121)))&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;END)&#xA;&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;/*Zwrócenie wartosci parametru @Data na podstawie parametru @LiczbaMiesiecyWstecz*/&#xA;&#xA;&#x9;&#x9;SELECT &#xA;&#x9;&#x9;&#x9;&#x9;CONVERT(SMALLDATETIME,CONVERT(NVARCHAR(7),@DataOd,121)+'-01') AS DataOd,&#xA;&#x9;&#x9;&#x9;&#x9;CONVERT(SMALLDATETIME,CONVERT(NVARCHAR(10),GetDate(),121)) AS DataDo&#xA;&#x9;&#x9;&#xA;&#x9;END&#xA;ELSE&#xA;&#x9;BEGIN&#xA;&#xA;&#x9;&#x9;DECLARE @NumerMiesiacaStyczniaBiezacegoRoku INT&#xA;&#x9;&#x9;SET @NumerMiesiacaStyczniaBiezacegoRoku = (&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;SELECT czas_NumerMiesiaca FROM TB_Czas_T WHERE&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;CONVERT(SMALLDATETIME,CONVERT(NVARCHAR(4),YEAR(GetDate()))+'-01-01') = czas_Data&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;   )&#xA;&#xA;&#x9;&#x9;IF(@MiesiacMarzowy &lt; @NumerMiesiacaStyczniaBiezacegoRoku)&#xA;&#x9;&#x9;&#x9;BEGIN&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;SELECT&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;CONVERT(SMALLDATETIME,MIN(czas_Data)) AS DataOd,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;CONVERT(SMALLDATETIME,MAX(czas_Data)) AS DataDo&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;FROM&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;dbo.TB_Czas_T&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;WHERE&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;czas_NumerMiesiaca = @NumerMiesiacaStyczniaBiezacegoRoku&#xA;&#x9;&#x9;&#x9;END&#xA;&#x9;&#x9;ELSE&#xA;&#x9;&#x9;&#x9;BEGIN&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;SELECT&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;CONVERT(SMALLDATETIME,MIN(czas_Data)) AS DataOd,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;CONVERT(SMALLDATETIME,MAX(czas_Data)) AS DataDo&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;FROM&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;dbo.TB_Czas_T&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;WHERE&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;czas_NumerMiesiaca = @MiesiacMarzowy&#xA;&#xA;&#x9;&#x9;&#x9;END&#xA;&#xA;&#x9;END"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Uzupełnienie słownika SL_Slep_W"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{0026AB44-9F06-4CFE-9C73-6FC4753A7B0F}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Uzupełnienie słownika SL_Slep_W"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[SL_Sklep2025_W]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1250</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[SERVER_NAME.MarzaCen.USER_DB_NAME]"
+                  connectionManagerRefId="Package.ConnectionManagers[SERVER_NAME.MarzaCen.USER_DB_NAME]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[sklep_ID]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="12"
+                      cachedName="sklep_ID"
+                      externalMetadataColumnId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sklep_ID]"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].Columns[sklep_ID]" />
+                    <inputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[miasto]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="30"
+                      cachedName="miasto"
+                      externalMetadataColumnId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sklep_Miasto]"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].Columns[miasto]" />
+                    <inputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[sklep_nr]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="12"
+                      cachedName="sklep_nr"
+                      externalMetadataColumnId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sklep_Numer]"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].Columns[sklep_nr]" />
+                    <inputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[KR]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="70"
+                      cachedName="KR"
+                      externalMetadataColumnId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sklep_KR]"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].Columns[KR]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sklep_ID]"
+                      dataType="i4"
+                      name="sklep_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sklep_Miasto]"
+                      codePage="1250"
+                      dataType="str"
+                      length="30"
+                      name="sklep_Miasto" />
+                    <externalMetadataColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sklep_Numer]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="sklep_Numer" />
+                    <externalMetadataColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sklep_KR]"
+                      codePage="1250"
+                      dataType="str"
+                      length="70"
+                      name="sklep_KR" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="OLE DB Source"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT
+
+case
+when sklepy.ID_SKLEPU is null then v_ps.ID_SKLEPU
+else sklepy.ID_SKLEPU end as sklep_ID,
+
+case
+when sklepy.ID_SKLEPU is null then convert(varchar(9),right(v_ps.ID_SKLEPU,3))
+else  convert(varchar(9),right(sklepy.ID_SKLEPU,3)) end as sklep_nr,
+
+case
+when klasyfikacja_sklepow.opis is null then '_brak_danych'
+else klasyfikacja_sklepow.opis end as KR,
+
+v_ps.NAZWA_MIASTA as miasto
+
+  FROM [DB_NAME].[dbo].[DRZEWO_KLAS_SKLEPOW]
+  join SKLEPY on DRZEWO_KLAS_SKLEPOW.ID_SKLEPU_ALT=sklepy.ID_SKLEPU_ALT
+  join KLASYFIKACJA_SKLEPOW on DRZEWO_KLAS_SKLEPOW.ID_KLASY=KLASYFIKACJA_SKLEPOW.ID_KLASY
+  full join v_ps on sklepy.id_sklepu=v_ps.id_sklepu
+
+  where V_PS.ID_SKLEPU != '000999' and V_PS.ID_SKLEPU != '000080'
+and V_PS.ID_SKLEPU != '000185' and V_PS.ID_SKLEPU != '000213'</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1250</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[SERVER_NAME.DB_NAME.USER_DB_NAME]"
+                  connectionManagerRefId="Package.ConnectionManagers[SERVER_NAME.DB_NAME.USER_DB_NAME]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].Columns[sklep_ID]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[sklep_ID]"
+                      length="12"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].Columns[sklep_ID]"
+                      name="sklep_ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].Columns[sklep_nr]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[sklep_nr]"
+                      length="12"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].Columns[sklep_nr]"
+                      name="sklep_nr"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].Columns[KR]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[KR]"
+                      length="70"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].Columns[KR]"
+                      name="KR"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].Columns[miasto]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[miasto]"
+                      length="30"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].Columns[miasto]"
+                      name="miasto"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[sklep_ID]"
+                      codePage="1250"
+                      dataType="str"
+                      length="12"
+                      name="sklep_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[sklep_nr]"
+                      codePage="1250"
+                      dataType="str"
+                      length="9"
+                      name="sklep_nr" />
+                    <externalMetadataColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[KR]"
+                      codePage="1250"
+                      dataType="str"
+                      length="70"
+                      name="KR" />
+                    <externalMetadataColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[miasto]"
+                      codePage="1250"
+                      dataType="str"
+                      length="30"
+                      name="miasto" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[sklep_ID]"
+                      codePage="1250"
+                      dataType="str"
+                      length="12"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[sklep_ID]"
+                      name="sklep_ID" />
+                    <outputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[sklep_nr]"
+                      codePage="1250"
+                      dataType="str"
+                      length="9"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[sklep_nr]"
+                      name="sklep_nr" />
+                    <outputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[KR]"
+                      codePage="1250"
+                      dataType="str"
+                      length="70"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[KR]"
+                      name="KR" />
+                    <outputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[miasto]"
+                      codePage="1250"
+                      dataType="str"
+                      length="30"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[miasto]"
+                      name="miasto" />
+                    <outputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Uzupełnienie słownika SL_Slep_W.Paths[OLE DB Source Output]"
+              endId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Wyczyszczenie wymaganych tabel"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{C3254BAD-C0C3-4D9C-983C-3D916D190A42}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Wyczyszczenie wymaganych tabel"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C7C143EC-A6EF-4265-B7CF-51A25D7C7C8B}"
+          SQLTask:SqlStatementSource="/*Wyczyszczenie tabel tymczasowych oraz słowników*/&#xA;&#xA;Truncate table SL_Sklep2025_W&#xA;Truncate table TB_Sprzedaz2025_Tv2&#xA;Truncate table TB_Target2025_Tv2&#xA;Truncate table TB_MarzaCen2025_Fv2" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{5E469C6A-C6EE-4606-85B9-0F7D76B108F9}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[TB_MarzaCen2025_Fv2]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1250</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[SERVER_NAME.MarzaCen.USER_DB_NAME]"
+                  connectionManagerRefId="Package.ConnectionManagers[SERVER_NAME.MarzaCen.USER_DB_NAME]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[czas_ID]"
+                      cachedDataType="i4"
+                      cachedName="czas_ID"
+                      externalMetadataColumnId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[czas_ID]"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[czas_ID]" />
+                    <inputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[sklep_ID]"
+                      cachedDataType="i4"
+                      cachedName="sklep_ID"
+                      externalMetadataColumnId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sklep_ID]"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[sklep_ID]" />
+                    <inputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[wartoscSprzedazyBrutto]"
+                      cachedDataType="r8"
+                      cachedName="wartoscSprzedazyBrutto"
+                      externalMetadataColumnId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[wartoscSprzedazyBrutto]"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[wartoscSprzedazyBrutto]" />
+                    <inputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[wartoscSprzedazyBruttoTarget]"
+                      cachedDataType="r8"
+                      cachedName="wartoscSprzedazyBruttoTarget"
+                      externalMetadataColumnId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[wartoscSprzedazyBruttoTarget]"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[wartoscSprzedazyBruttoTarget]" />
+                    <inputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[towar_grupa_m]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="5"
+                      cachedName="towar_grupa_m"
+                      externalMetadataColumnId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[towar_grupa_m]"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[towar_grupa_m]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[fakt_ID]"
+                      dataType="i4"
+                      name="fakt_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[czas_ID]"
+                      dataType="i4"
+                      name="czas_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sklep_ID]"
+                      dataType="i4"
+                      name="sklep_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[wartoscSprzedazyBrutto]"
+                      dataType="r8"
+                      name="wartoscSprzedazyBrutto" />
+                    <externalMetadataColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[wartoscSprzedazyBruttoTarget]"
+                      dataType="r8"
+                      name="wartoscSprzedazyBruttoTarget" />
+                    <externalMetadataColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[towar_grupa_m]"
+                      codePage="1250"
+                      dataType="str"
+                      length="5"
+                      name="towar_grupa_m" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="OLE DB Source"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT
+	A.czas_ID,
+	A.sklep_ID,
+
+	SUM(a.wartoscSprzedazyBrutto) AS wartoscSprzedazyBrutto,
+	SUM(wartoscSprzedazyBruttoTarget) AS wartoscSprzedazyBruttoTarget,
+	towar_grupa_m
+
+FROM (
+	SELECT
+		A.czas_ID,
+		A.sklep_ID,
+		a.wartoscSprzedazyBrutto,
+		wartoscSprzedazyBruttoTarget,
+		a.towar_grupa_m
+
+	FROM
+		TB_Sprzedaz2025_Tv2 A INNER JOIN
+		TB_Target2025_Tv2 B ON A.czas_ID = B.czas_ID
+			         AND A.sklep_ID = B.sklep_ID
+					 and a.towar_grupa_m = b.towar_grupa_m
+
+	UNION ALL
+
+	SELECT
+		A.czas_ID,
+		A.sklep_ID,
+		b.wartoscSprzedazyBrutto,
+		wartoscSprzedazyBruttoTarget,
+a.towar_grupa_m
+
+	FROM
+		TB_Target2025_Tv2 A LEFT OUTER JOIN
+		TB_Sprzedaz2025_Tv2 B ON A.czas_ID = B.czas_ID
+			             AND A.sklep_ID = B.sklep_ID
+						 and a.towar_grupa_m = b.towar_grupa_m
+
+	WHERE
+		B.czas_ID IS NULL
+		AND B.sklep_ID IS NULL
+		
+
+	UNION ALL
+
+	SELECT
+		A.czas_ID,
+		A.sklep_ID,
+
+		a.wartoscSprzedazyBrutto,
+		wartoscSprzedazyBruttoTarget,
+a.towar_grupa_m
+
+	FROM
+		TB_Sprzedaz2025_Tv2 A LEFT OUTER JOIN
+		TB_Target2025_Tv2 B ON A.czas_ID = B.czas_ID
+			         AND A.sklep_ID = B.sklep_ID
+					 and a.towar_grupa_m = b.towar_grupa_m
+
+	WHERE
+		B.czas_ID IS NULL
+		AND B.sklep_ID IS NULL
+
+	)A INNER JOIN SL_Sklep2025_W B ON A.sklep_ID = B.sklep_ID
+
+	
+GROUP BY 
+	A.czas_ID,
+	A.sklep_ID,
+a.towar_grupa_m</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1250</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[SERVER_NAME.MarzaCen.USER_DB_NAME]"
+                  connectionManagerRefId="Package.ConnectionManagers[SERVER_NAME.MarzaCen.USER_DB_NAME]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[czas_ID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[czas_ID]"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[czas_ID]"
+                      name="czas_ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[sklep_ID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[sklep_ID]"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[sklep_ID]"
+                      name="sklep_ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[wartoscSprzedazyBrutto]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[wartoscSprzedazyBrutto]"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[wartoscSprzedazyBrutto]"
+                      name="wartoscSprzedazyBrutto"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[wartoscSprzedazyBruttoTarget]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[wartoscSprzedazyBruttoTarget]"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[wartoscSprzedazyBruttoTarget]"
+                      name="wartoscSprzedazyBruttoTarget"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[towar_grupa_m]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[towar_grupa_m]"
+                      length="5"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].Columns[towar_grupa_m]"
+                      name="towar_grupa_m"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[czas_ID]"
+                      dataType="i4"
+                      name="czas_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[sklep_ID]"
+                      dataType="i4"
+                      name="sklep_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[wartoscSprzedazyBrutto]"
+                      dataType="r8"
+                      name="wartoscSprzedazyBrutto" />
+                    <externalMetadataColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[wartoscSprzedazyBruttoTarget]"
+                      dataType="r8"
+                      name="wartoscSprzedazyBruttoTarget" />
+                    <externalMetadataColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[towar_grupa_m]"
+                      codePage="1250"
+                      dataType="str"
+                      length="5"
+                      name="towar_grupa_m" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[czas_ID]"
+                      dataType="i4"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[czas_ID]"
+                      name="czas_ID" />
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[sklep_ID]"
+                      dataType="i4"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[sklep_ID]"
+                      name="sklep_ID" />
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[wartoscSprzedazyBrutto]"
+                      dataType="r8"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[wartoscSprzedazyBrutto]"
+                      name="wartoscSprzedazyBrutto" />
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[wartoscSprzedazyBruttoTarget]"
+                      dataType="r8"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[wartoscSprzedazyBruttoTarget]"
+                      name="wartoscSprzedazyBruttoTarget" />
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[towar_grupa_m]"
+                      codePage="1250"
+                      dataType="str"
+                      length="5"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[towar_grupa_m]"
+                      name="towar_grupa_m" />
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F.Paths[OLE DB Source Output]"
+              endId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{E801AE58-A0DF-4E56-8E1C-70116AD8816A}"
+      DTS:From="Package\Ustalenie wartości wymaganych parametrów"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Wyczyszczenie wymaganych tabel" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{308ED9DD-BBEE-4BDE-99C5-012CF776D840}"
+      DTS:From="Package\Wyczyszczenie wymaganych tabel"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\Uzupełnienie słownika SL_Slep_W" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{2F27A8ED-0304-40F4-AF59-F6ACFBD92089}"
+      DTS:From="Package\Uzupełnienie słownika SL_Slep_W"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 2"
+      DTS:To="Package\Pobranie danych z bazy Sprzedaz do tabeli TB_Sprzedaz2025_T" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{A442346A-30AD-4FBC-B0C8-6360EA2B843F}"
+      DTS:From="Package\Pobranie danych z bazy Sprzedaz do tabeli TB_Sprzedaz2025_T"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 3"
+      DTS:To="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{4852A4C5-20A9-436A-A4BC-D102FEE336F0}"
+      DTS:From="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 4"
+      DTS:To="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
+      DTS:CreationName=""
+      DTS:DTSID="{69245216-3990-4148-BAED-96B33576CB5A}"
+      DTS:From="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 5"
+      DTS:To="Package\Proces Wymiarow Kostki MarzaCen2025" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
+      DTS:CreationName=""
+      DTS:DTSID="{E060AEBE-C186-496A-8258-DD2C44D13D54}"
+      DTS:From="Package\Proces Wymiarow Kostki MarzaCen2025"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 6"
+      DTS:To="Package\Proces Kostki MarzaCen2025" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="379,42"
+          Id="Package\Pobranie danych z bazy Sprzedaz do tabeli TB_Sprzedaz2025_T"
+          TopLeft="43.8095245555956,388.033618887403" />
+        <NodeLayout
+          Size="346,42"
+          Id="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T"
+          TopLeft="500.816335059464,391.314289777419" />
+        <NodeLayout
+          Size="214,42"
+          Id="Package\Proces Kostki MarzaCen2025"
+          TopLeft="50.6122457598806,609.344545671743" />
+        <NodeLayout
+          Size="267,42"
+          Id="Package\Proces Wymiarow Kostki MarzaCen2025"
+          TopLeft="44.8979599482812,541.848747095022" />
+        <NodeLayout
+          Size="288,42"
+          Id="Package\Ustalenie wartości wymaganych parametrów"
+          TopLeft="60.0544227914283,165.613447700817" />
+        <NodeLayout
+          Size="238,42"
+          Id="Package\Uzupełnienie słownika SL_Slep_W"
+          TopLeft="54.4217696342803,314.621853151948" />
+        <NodeLayout
+          Size="238,42"
+          Id="Package\Wyczyszczenie wymaganych tabel"
+          TopLeft="55.2380961787945,243.83193619276" />
+        <NodeLayout
+          Size="356,42"
+          Id="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F"
+          TopLeft="39.6326537702244,459.696360968224" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="204.054422791428,207.213447700817">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-29.6163266126338,36.618488491943"
+              Start="0,0"
+              End="-29.6163266126338,29.118488491943">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.3092442459715" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.3092442459715"
+                    Point2="0,18.3092442459715"
+                    Point3="-4,18.3092442459715" />
+                  <mssgle:LineSegment
+                    End="-25.6163266126338,18.3092442459715" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-25.6163266126338,18.3092442459715"
+                    Point2="-29.6163266126338,18.3092442459715"
+                    Point3="-29.6163266126338,22.3092442459715" />
+                  <mssgle:LineSegment
+                    End="-29.6163266126338,29.118488491943" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="174.029932906537,285.43193619276">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29.189916959188"
+              Start="0,0"
+              End="0,21.689916959188">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.689916959188" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="173.42176963428,356.621853151948">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="59.8877549213153,31.411765735455"
+              Start="0,0"
+              End="59.8877549213153,23.911765735455">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.7058828677275" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.7058828677275"
+                    Point2="0,15.7058828677275"
+                    Point3="4,15.7058828677275" />
+                  <mssgle:LineSegment
+                    End="55.8877549213153,15.7058828677275" />
+                  <mssgle:CubicBezierSegment
+                    Point1="55.8877549213153,15.7058828677275"
+                    Point2="59.8877549213153,15.7058828677275"
+                    Point3="59.8877549213153,19.7058828677275" />
+                  <mssgle:LineSegment
+                    End="59.8877549213153,23.911765735455" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="422.809524555596,410.673954332411">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="78.0068105038684,0"
+              Start="0,0"
+              End="70.5068105038684,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="70.5068105038684,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="673.816335059464,433.314289777419">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-456.18368128924,26.382071190805"
+              Start="0,0"
+              End="-456.18368128924,18.882071190805">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,9.1910355954025" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,9.1910355954025"
+                    Point2="0,13.1910355954025"
+                    Point3="-4,13.1910355954025" />
+                  <mssgle:LineSegment
+                    End="-452.18368128924,13.1910355954025" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-452.18368128924,13.1910355954025"
+                    Point2="-456.18368128924,13.1910355954025"
+                    Point3="-456.18368128924,17.1910355954025" />
+                  <mssgle:LineSegment
+                    End="-456.18368128924,18.882071190805" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 5]"
+          TopLeft="217.632653770224,501.696360968224">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-39.2346938219432,40.152386126798"
+              Start="0,0"
+              End="-39.2346938219432,32.652386126798">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.076193063399" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.076193063399"
+                    Point2="0,20.076193063399"
+                    Point3="-4,20.076193063399" />
+                  <mssgle:LineSegment
+                    End="-35.2346938219432,20.076193063399" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-35.2346938219432,20.076193063399"
+                    Point2="-39.2346938219432,20.076193063399"
+                    Point3="-39.2346938219432,24.076193063399" />
+                  <mssgle:LineSegment
+                    End="-39.2346938219432,32.652386126798" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 6]"
+          TopLeft="178.397959948281,583.848747095022">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-20.7857141884006,25.4957985767211"
+              Start="0,0"
+              End="-20.7857141884006,17.9957985767211">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8.74789928836054" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8.74789928836054"
+                    Point2="0,12.7478992883605"
+                    Point3="-4,12.7478992883605" />
+                  <mssgle:LineSegment
+                    End="-16.7857141884006,12.7478992883605" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-16.7857141884006,12.7478992883605"
+                    Point2="-20.7857141884006,12.7478992883605"
+                    Point3="-20.7857141884006,16.7478992883605" />
+                  <mssgle:LineSegment
+                    End="-20.7857141884006,17.9957985767211" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <AnnotationLayout
+          Text="SSIS dla projektu MARZA CEN 2025"
+          ParentId="Package"
+          FontInfo="{assembly:Null}"
+          Size="217,40"
+          Id="37583935-b9d9-419d-b11c-b45604982535"
+          TopLeft="137.278913902472,101.960785743687" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <ConnectionManager
+    design-time-name="Package.ConnectionManagers[localhost.MarzaCen]">
+    <ProjectReferenceName></ProjectReferenceName>
+  </ConnectionManager>
+  <TaskHost
+    design-time-name="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination"
+          TopLeft="385.142863701801,196.988238056803" />
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\Flat File Source"
+          TopLeft="265.714290239373,20.18823557725" />
+        <EdgeLayout
+          Id="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T.Paths[Flat File Source Output]"
+          TopLeft="340.914290239373,61.78823557725">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="129.428573462428,135.200002479553"
+              Start="0,0"
+              End="129.428573462428,127.700002479553">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,63.6000012397765" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,63.6000012397765"
+                    Point2="0,67.6000012397765"
+                    Point3="4,67.6000012397765" />
+                  <mssgle:LineSegment
+                    End="125.428573462428,67.6000012397765" />
+                  <mssgle:CubicBezierSegment
+                    Point1="125.428573462428,67.6000012397765"
+                    Point2="129.428573462428,67.6000012397765"
+                    Point3="129.428573462428,71.6000012397765" />
+                  <mssgle:LineSegment
+                    End="129.428573462428,127.700002479553" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Pobranie targetów z aplikacji do tabeli TB_Target2025_T\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Uzupełnienie słownika SL_Slep_W">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source"
+          TopLeft="113.142859069668,51.3882360148182" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination"
+          TopLeft="98.85714454067,161.505884618" />
+        <EdgeLayout
+          Id="Package\Uzupełnienie słownika SL_Slep_W.Paths[OLE DB Source Output]"
+          TopLeft="186.000001805169,92.9882360148183">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,68.5176486031819"
+              Start="0,0"
+              End="0,61.0176486031819">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,61.0176486031819" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Uzupełnienie słownika SL_Slep_W\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source"
+          TopLeft="113.142859069668,51.3882360148182" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination"
+          TopLeft="98.85714454067,161.505884618" />
+        <EdgeLayout
+          Id="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F.Paths[OLE DB Source Output]"
+          TopLeft="186.000001805169,92.9882360148182">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,68.5176486031818"
+              Start="0,0"
+              End="0,61.0176486031818">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,61.0176486031818" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-30.3178059895833,25.7075547703409,60.6356119791667,9.6025390625"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Zaladowanie danych do tabeli faktow TB_MarzaCen2025_F\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
