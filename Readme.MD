@@ -67,16 +67,19 @@ Proces ETL realizuje:
 
 ### Miary
 
-- Wartość sprzedaży
-- Ilość sprzedana
+- Wartość sprzedaży brutto/netto
+- Ilość sprzedaży
 - Liczba transakcji
+ -Liczba klientów
 
 ### Wymiary
 
 - Czas
-- Produkt
-- Klient
+- Towar
 - Sklep
+- VAT
+- nr paragonu
+- Płatność
 
 ### Hierarchie
 
@@ -88,7 +91,7 @@ Proces ETL realizuje:
 - analiza sprzedaży,
 - analiza trendów,
 - agregacje wielowymiarowe,
-- drill-down i drill-through.
+- hierarchie drill-down
 
 ---
 
@@ -100,7 +103,7 @@ Analiza realizacji targetów handlowych, cen sprzedaży oraz marży.
 
 ## Architektura
 
-```text
+```
 Sprzedaz DWH
       ↓
 SSIS (ETL)
@@ -119,24 +122,23 @@ Proces obejmuje:
 - pobieranie danych sprzedażowych,
 - import targetów handlowych,
 - transformacje danych cenowych,
-- wyliczanie marży,
 - przygotowanie danych do analizy.
 
 ## Model OLAP (SSAS)
 
 ### Miary
 
-- Sprzedaż
-- Koszt
-- Marża
-- Marża %
+- Sprzedaż brutto/netto
 - Realizacja targetu
 
 ### Wymiary
 
-- Produkt
-- Klient
 - Czas
+- Towar
+- Sklep
+- VAT
+- nr paragonu
+- Płatność
 
 ### Hierarchie
 
@@ -147,7 +149,6 @@ Proces obejmuje:
 
 - analiza sprzedaży vs target,
 - analiza rentowności produktów,
-- analiza marży,
 - analiza trendów cenowych.
 
 ---
