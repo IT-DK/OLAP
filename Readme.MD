@@ -1,5 +1,10 @@
 # OLAP – Sales Data Warehouse (SSIS + SSAS)
 
+## Disclaimer
+Repozytorium ma charakter edukacyjny i portfolio.
+Nie zawiera świadomie żadnych poufnych danych ani elementów produkcyjnej infrastruktury.
+Projekt został przygotowany jako element portfolio prezentujący kompetencje w obszarze Data Warehouse, ETL oraz Business Intelligence.
+
 ## Struktura repozytorium
 
 ```text
@@ -161,5 +166,3 @@ Repozytorium prezentuje praktyczne wykorzystanie:
 - hurtowni danych SQL Server,
 - SSAS do modelowania kostek OLAP,
 - Excel / Power BI jako warstwy raportowej.
-
-Projekt został przygotowany jako element portfolio prezentujący kompetencje w obszarze Data Warehouse, ETL oraz Business Intelligence.
